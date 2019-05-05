@@ -29,15 +29,6 @@
         private void InitializeComponent()
         {
             this.DGVSpellList = new System.Windows.Forms.DataGridView();
-            this.Class = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.School = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Level = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Ritual = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.CastingTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Range = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Component = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Concentration = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Duration = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LBLClass = new System.Windows.Forms.Label();
             this.LBLSchool = new System.Windows.Forms.Label();
             this.LBLLevel = new System.Windows.Forms.Label();
@@ -58,140 +49,82 @@
             // DGVSpellList
             // 
             this.DGVSpellList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGVSpellList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Class,
-            this.School,
-            this.Level,
-            this.Ritual,
-            this.CastingTime,
-            this.Range,
-            this.Component,
-            this.Concentration,
-            this.Duration});
-            this.DGVSpellList.Location = new System.Drawing.Point(12, 106);
+            this.DGVSpellList.Location = new System.Drawing.Point(9, 86);
+            this.DGVSpellList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DGVSpellList.Name = "DGVSpellList";
             this.DGVSpellList.ReadOnly = true;
             this.DGVSpellList.RowTemplate.Height = 24;
-            this.DGVSpellList.Size = new System.Drawing.Size(1008, 332);
+            this.DGVSpellList.Size = new System.Drawing.Size(756, 270);
             this.DGVSpellList.TabIndex = 0;
             this.DGVSpellList.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGVSpellList_CellDoubleClick);
-            // 
-            // Class
-            // 
-            this.Class.HeaderText = "Class";
-            this.Class.Name = "Class";
-            this.Class.ReadOnly = true;
-            // 
-            // School
-            // 
-            this.School.HeaderText = "School";
-            this.School.Name = "School";
-            this.School.ReadOnly = true;
-            // 
-            // Level
-            // 
-            this.Level.HeaderText = "Level";
-            this.Level.Name = "Level";
-            this.Level.ReadOnly = true;
-            // 
-            // Ritual
-            // 
-            this.Ritual.HeaderText = "Ritual";
-            this.Ritual.Name = "Ritual";
-            this.Ritual.ReadOnly = true;
-            this.Ritual.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Ritual.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // CastingTime
-            // 
-            this.CastingTime.HeaderText = "Casting Time";
-            this.CastingTime.Name = "CastingTime";
-            this.CastingTime.ReadOnly = true;
-            // 
-            // Range
-            // 
-            this.Range.HeaderText = "Range";
-            this.Range.Name = "Range";
-            this.Range.ReadOnly = true;
-            // 
-            // Component
-            // 
-            this.Component.HeaderText = "Component";
-            this.Component.Name = "Component";
-            this.Component.ReadOnly = true;
-            // 
-            // Concentration
-            // 
-            this.Concentration.HeaderText = "Concentration";
-            this.Concentration.Name = "Concentration";
-            this.Concentration.ReadOnly = true;
-            // 
-            // Duration
-            // 
-            this.Duration.HeaderText = "Duration";
-            this.Duration.Name = "Duration";
-            this.Duration.ReadOnly = true;
             // 
             // LBLClass
             // 
             this.LBLClass.AutoSize = true;
-            this.LBLClass.Location = new System.Drawing.Point(9, 16);
+            this.LBLClass.Location = new System.Drawing.Point(7, 13);
+            this.LBLClass.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBLClass.Name = "LBLClass";
-            this.LBLClass.Size = new System.Drawing.Size(42, 17);
+            this.LBLClass.Size = new System.Drawing.Size(32, 13);
             this.LBLClass.TabIndex = 8;
             this.LBLClass.Text = "Class";
             // 
             // LBLSchool
             // 
             this.LBLSchool.AutoSize = true;
-            this.LBLSchool.Location = new System.Drawing.Point(135, 16);
+            this.LBLSchool.Location = new System.Drawing.Point(101, 13);
+            this.LBLSchool.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBLSchool.Name = "LBLSchool";
-            this.LBLSchool.Size = new System.Drawing.Size(51, 17);
+            this.LBLSchool.Size = new System.Drawing.Size(40, 13);
             this.LBLSchool.TabIndex = 9;
             this.LBLSchool.Text = "School";
             // 
             // LBLLevel
             // 
             this.LBLLevel.AutoSize = true;
-            this.LBLLevel.Location = new System.Drawing.Point(316, 16);
+            this.LBLLevel.Location = new System.Drawing.Point(237, 13);
+            this.LBLLevel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBLLevel.Name = "LBLLevel";
-            this.LBLLevel.Size = new System.Drawing.Size(42, 17);
+            this.LBLLevel.Size = new System.Drawing.Size(33, 13);
             this.LBLLevel.TabIndex = 10;
             this.LBLLevel.Text = "Level";
             // 
             // LBLRitual
             // 
             this.LBLRitual.AutoSize = true;
-            this.LBLRitual.Location = new System.Drawing.Point(442, 16);
+            this.LBLRitual.Location = new System.Drawing.Point(332, 13);
+            this.LBLRitual.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBLRitual.Name = "LBLRitual";
-            this.LBLRitual.Size = new System.Drawing.Size(44, 17);
+            this.LBLRitual.Size = new System.Drawing.Size(34, 13);
             this.LBLRitual.TabIndex = 11;
             this.LBLRitual.Text = "Ritual";
             // 
             // LBLCastingTime
             // 
             this.LBLCastingTime.AutoSize = true;
-            this.LBLCastingTime.Location = new System.Drawing.Point(568, 16);
+            this.LBLCastingTime.Location = new System.Drawing.Point(426, 13);
+            this.LBLCastingTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBLCastingTime.Name = "LBLCastingTime";
-            this.LBLCastingTime.Size = new System.Drawing.Size(90, 17);
+            this.LBLCastingTime.Size = new System.Drawing.Size(68, 13);
             this.LBLCastingTime.TabIndex = 12;
             this.LBLCastingTime.Text = "Casting Time";
             // 
             // LBLComponents
             // 
             this.LBLComponents.AutoSize = true;
-            this.LBLComponents.Location = new System.Drawing.Point(737, 16);
+            this.LBLComponents.Location = new System.Drawing.Point(553, 13);
+            this.LBLComponents.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBLComponents.Name = "LBLComponents";
-            this.LBLComponents.Size = new System.Drawing.Size(87, 17);
+            this.LBLComponents.Size = new System.Drawing.Size(66, 13);
             this.LBLComponents.TabIndex = 13;
             this.LBLComponents.Text = "Components";
             // 
             // LBLConcentration
             // 
             this.LBLConcentration.AutoSize = true;
-            this.LBLConcentration.Location = new System.Drawing.Point(863, 16);
+            this.LBLConcentration.Location = new System.Drawing.Point(647, 13);
+            this.LBLConcentration.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBLConcentration.Name = "LBLConcentration";
-            this.LBLConcentration.Size = new System.Drawing.Size(96, 17);
+            this.LBLConcentration.Size = new System.Drawing.Size(73, 13);
             this.LBLConcentration.TabIndex = 14;
             this.LBLConcentration.Text = "Concentration";
             // 
@@ -207,10 +140,12 @@
             "S",
             "L",
             "W"});
-            this.CLBClass.Location = new System.Drawing.Point(12, 36);
+            this.CLBClass.Location = new System.Drawing.Point(9, 29);
+            this.CLBClass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CLBClass.Name = "CLBClass";
-            this.CLBClass.Size = new System.Drawing.Size(120, 55);
+            this.CLBClass.Size = new System.Drawing.Size(91, 34);
             this.CLBClass.TabIndex = 15;
+            this.CLBClass.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.CLBClass_ItemCheck);
             // 
             // CLBSchool
             // 
@@ -224,10 +159,12 @@
             "Illusion",
             "Necromancy",
             "Transmutation"});
-            this.CLBSchool.Location = new System.Drawing.Point(138, 36);
+            this.CLBSchool.Location = new System.Drawing.Point(104, 29);
+            this.CLBSchool.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CLBSchool.Name = "CLBSchool";
-            this.CLBSchool.Size = new System.Drawing.Size(175, 55);
+            this.CLBSchool.Size = new System.Drawing.Size(132, 34);
             this.CLBSchool.TabIndex = 16;
+            this.CLBSchool.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.CLBSchool_ItemCheck);
             // 
             // CLBLevel
             // 
@@ -243,9 +180,10 @@
             "7",
             "8",
             "9"});
-            this.CLBLevel.Location = new System.Drawing.Point(319, 36);
+            this.CLBLevel.Location = new System.Drawing.Point(239, 29);
+            this.CLBLevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CLBLevel.Name = "CLBLevel";
-            this.CLBLevel.Size = new System.Drawing.Size(120, 55);
+            this.CLBLevel.Size = new System.Drawing.Size(91, 34);
             this.CLBLevel.TabIndex = 17;
             // 
             // CLBRitual
@@ -254,9 +192,10 @@
             this.CLBRitual.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.CLBRitual.Location = new System.Drawing.Point(445, 36);
+            this.CLBRitual.Location = new System.Drawing.Point(334, 29);
+            this.CLBRitual.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CLBRitual.Name = "CLBRitual";
-            this.CLBRitual.Size = new System.Drawing.Size(120, 55);
+            this.CLBRitual.Size = new System.Drawing.Size(91, 34);
             this.CLBRitual.TabIndex = 18;
             // 
             // CLBCastingTime
@@ -267,9 +206,10 @@
             "1 Bonus Action",
             "1 Reaction",
             "Other"});
-            this.CLBCastingTime.Location = new System.Drawing.Point(571, 36);
+            this.CLBCastingTime.Location = new System.Drawing.Point(428, 29);
+            this.CLBCastingTime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CLBCastingTime.Name = "CLBCastingTime";
-            this.CLBCastingTime.Size = new System.Drawing.Size(163, 55);
+            this.CLBCastingTime.Size = new System.Drawing.Size(123, 34);
             this.CLBCastingTime.TabIndex = 19;
             // 
             // CLBComponents
@@ -279,9 +219,10 @@
             "Verbal",
             "Somatic",
             "Material"});
-            this.CLBComponents.Location = new System.Drawing.Point(740, 36);
+            this.CLBComponents.Location = new System.Drawing.Point(555, 29);
+            this.CLBComponents.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CLBComponents.Name = "CLBComponents";
-            this.CLBComponents.Size = new System.Drawing.Size(120, 55);
+            this.CLBComponents.Size = new System.Drawing.Size(91, 34);
             this.CLBComponents.TabIndex = 20;
             // 
             // CLBConcentration
@@ -290,16 +231,17 @@
             this.CLBConcentration.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.CLBConcentration.Location = new System.Drawing.Point(866, 36);
+            this.CLBConcentration.Location = new System.Drawing.Point(650, 29);
+            this.CLBConcentration.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CLBConcentration.Name = "CLBConcentration";
-            this.CLBConcentration.Size = new System.Drawing.Size(120, 55);
+            this.CLBConcentration.Size = new System.Drawing.Size(91, 34);
             this.CLBConcentration.TabIndex = 21;
             // 
             // SpellCompendium
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1032, 450);
+            this.ClientSize = new System.Drawing.Size(774, 366);
             this.Controls.Add(this.CLBConcentration);
             this.Controls.Add(this.CLBComponents);
             this.Controls.Add(this.CLBCastingTime);
@@ -315,6 +257,7 @@
             this.Controls.Add(this.LBLSchool);
             this.Controls.Add(this.LBLClass);
             this.Controls.Add(this.DGVSpellList);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SpellCompendium";
             this.Text = "Spell Compendium";
             this.Load += new System.EventHandler(this.SpellCompendium_Load);
@@ -327,15 +270,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView DGVSpellList;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Class;
-        private System.Windows.Forms.DataGridViewTextBoxColumn School;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Level;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Ritual;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CastingTime;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Range;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Component;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Concentration;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Duration;
         private System.Windows.Forms.Label LBLClass;
         private System.Windows.Forms.Label LBLSchool;
         private System.Windows.Forms.Label LBLLevel;

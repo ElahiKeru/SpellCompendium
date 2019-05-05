@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--         
+    <spell>
+        <name></name>
+        <classlist></classlist>
+        <school></school>
+        <level></level>
+        <ritual></ritual>
+        <casttime></casttime>
+        <range></range>
+        <components></components>
+        <concentration></concentration>
+        <duration></duration>
+        <effect></effect>
+    </spell>
+        -->
+<spells>
+    <spell>
+        <name>Acid Splash</name>
+        <classlist>S,W</classlist>
+        <school>Conjuration</school>
+        <level>0</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage. This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</effect>
+    </spell>
+</spells>

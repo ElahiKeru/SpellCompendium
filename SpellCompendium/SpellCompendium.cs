@@ -15,23 +15,87 @@ namespace SpellCompendium
     {
         //properties and links to external library
         SpellContainer fullSpellContainer;
+        List<string> classFilter;
+        List<string> schoolFilter;
         SpellContainer filteredSpells;
 
         public SpellCompendium()
         {
+            classFilter = new List<string>();
+            schoolFilter = new List<string>();
             InitializeComponent();
         }
 
         private void DGVSpellList_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridView dgv = (DataGridView)sender;
-            var test = dgv.CurrentCell.OwningRow.DataBoundItem;
+
+            DetailView dv = new DetailView((Spell)dgv.CurrentCell.OwningRow.DataBoundItem);
+            dv.Show();
         }
 
         private void SpellCompendium_Load(object sender, EventArgs e)
         {
-            //set up the spell list object and bind it to the DGV
-            fullSpellContainer = new SpellContainer();
+            //fill the spell list
+            fullSpellContainer = new SpellContainer(@"DND5ESpellList.xml");
+
+            //populate the controls
+            DGVSpellList.DataSource = fullSpellContainer.Spells;
+        }
+
+        private void CLBClass_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            CheckedListBox clb = (CheckedListBox)sender;
+            string entry = clb.Items[e.Index].ToString();
+
+            if(e.NewValue == CheckState.Checked && !classFilter.Contains(entry))
+            {
+                //apply filter
+                classFilter.Add(entry);
+            }
+            else
+            {
+                //remove filter
+                classFilter.Remove(entry);
+            }
+
+            ApplyFilters();
+        }
+
+        private void ApplyFilters()
+        {
+            filteredSpells = new SpellContainer();
+            var filtered = fullSpellContainer.Spells;
+            if(classFilter.Count > 0)
+            {
+                //filtered = filtered.Where(filtered.Any(spl => classFilter.ForEach(s => spl.ClassList.Contains(s))));
+                //filtered = filtered.Where(filtered.Any(spl => spl.ClassList.Where(i => classFilter.Contains(i.ToString()))));
+            }
+            filteredSpells.Spells = (List<Spell>) from spell in fullSpellContainer
+                                                  where classFilter.Any(c => spell.ClassList.Contains(c))
+                                                  && schoolFilter.Any(scl => spell.School.Contains(scl))
+                                                  select spell;
+
+            DGVSpellList.DataSource = filteredSpells.Spells;
+        }
+
+        private void CLBSchool_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            CheckedListBox clb = (CheckedListBox)sender;
+            string entry = clb.Items[e.Index].ToString();
+
+            if (e.NewValue == CheckState.Checked && !classFilter.Contains(entry))
+            {
+                //apply filter
+                schoolFilter.Add(entry);
+            }
+            else
+            {
+                //remove filter
+                schoolFilter.Remove(entry);
+            }
+
+            ApplyFilters();
         }
     }
 }

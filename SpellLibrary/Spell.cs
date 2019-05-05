@@ -8,6 +8,7 @@ namespace SpellLibrary
 {
     public class Spell
     {
+        public string Name { get; set; }
         public string ClassList { get; private set; }
         public string School { get; private set; }
         public int Level { get; private set; }
@@ -19,10 +20,11 @@ namespace SpellLibrary
         public string Duration { get; private set; }
         public string EffectText { get; private set; }
 
-        public Spell(string clslst, string scl, int lvl, bool rit, 
+        public Spell(string name, string clslst, string scl, int lvl, bool rit, 
             string casttm, string rng, string comp, bool conc, 
             string dur, string efttxt)
         {
+            Name = name;
             ClassList = clslst;
             School = scl;
             Level = lvl;
