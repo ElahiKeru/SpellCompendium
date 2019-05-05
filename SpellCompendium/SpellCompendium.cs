@@ -65,20 +65,16 @@ namespace SpellCompendium
         private void ApplyFilters()
         {
             filteredSpells = new SpellContainer();
-            var filtered = fullSpellContainer.Spells;
-            if(classFilter.Count > 0)
+            var filtered = fullSpellContainer.Spells.Where(p => !string.IsNullOrEmpty(p.Name));
+            if (classFilter.Count > 0)
             {
-                //filtered = filtered.Where(filtered.Any(spl => classFilter.ForEach(s => spl.ClassList.Contains(s))));
-                //filtered = filtered.TakeWhile(filtered.Any(spl => spl.ClassList.Where(i => classFilter.Contains(i.ToString())).Count() > 0));
-                foreach(Spell s in filtered.Where(p => (p.ClassList.Where(s => classFilter.Contains(s.ToString())).Count() > 0)))
-                {
-                    filteredSpells.Add(s);
-                }
+                filtered = filtered.Where(p => (p.ClassList.Where(s => classFilter.Contains(s.ToString())).Count() > 0));
             }
-            filteredSpells.Spells = (List<Spell>) from spell in fullSpellContainer
-                                                  where classFilter.Any(c => spell.ClassList.Contains(c))
-                                                  && schoolFilter.Any(scl => spell.School.Contains(scl))
-                                                  select spell;
+
+            foreach(Spell s in filtered)
+            {
+                filteredSpells.Add(s);
+            }
 
             DGVSpellList.DataSource = filteredSpells.Spells;
         }
