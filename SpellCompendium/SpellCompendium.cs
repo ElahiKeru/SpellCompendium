@@ -69,7 +69,11 @@ namespace SpellCompendium
             if(classFilter.Count > 0)
             {
                 //filtered = filtered.Where(filtered.Any(spl => classFilter.ForEach(s => spl.ClassList.Contains(s))));
-                //filtered = filtered.Where(filtered.Any(spl => spl.ClassList.Where(i => classFilter.Contains(i.ToString()))));
+                //filtered = filtered.TakeWhile(filtered.Any(spl => spl.ClassList.Where(i => classFilter.Contains(i.ToString())).Count() > 0));
+                foreach(Spell s in filtered.Where(p => (p.ClassList.Where(s => classFilter.Contains(s.ToString())).Count() > 0)))
+                {
+                    filteredSpells.Add(s);
+                }
             }
             filteredSpells.Spells = (List<Spell>) from spell in fullSpellContainer
                                                   where classFilter.Any(c => spell.ClassList.Contains(c))
