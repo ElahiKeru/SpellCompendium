@@ -142,6 +142,7 @@
             // 
             // TBEffect
             // 
+            this.TBEffect.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TBEffect.Location = new System.Drawing.Point(97, 235);
             this.TBEffect.Multiline = true;
             this.TBEffect.Name = "TBEffect";
@@ -149,6 +150,7 @@
             this.TBEffect.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.TBEffect.Size = new System.Drawing.Size(495, 203);
             this.TBEffect.TabIndex = 10;
+            this.TBEffect.TabStop = false;
             // 
             // TBDuration
             // 
@@ -157,6 +159,7 @@
             this.TBDuration.ReadOnly = true;
             this.TBDuration.Size = new System.Drawing.Size(495, 20);
             this.TBDuration.TabIndex = 11;
+            this.TBDuration.TabStop = false;
             // 
             // TBComponents
             // 
@@ -165,6 +168,7 @@
             this.TBComponents.ReadOnly = true;
             this.TBComponents.Size = new System.Drawing.Size(495, 20);
             this.TBComponents.TabIndex = 12;
+            this.TBComponents.TabStop = false;
             // 
             // TBRange
             // 
@@ -173,6 +177,7 @@
             this.TBRange.ReadOnly = true;
             this.TBRange.Size = new System.Drawing.Size(494, 20);
             this.TBRange.TabIndex = 13;
+            this.TBRange.TabStop = false;
             // 
             // TBCastingTime
             // 
@@ -181,6 +186,7 @@
             this.TBCastingTime.ReadOnly = true;
             this.TBCastingTime.Size = new System.Drawing.Size(494, 20);
             this.TBCastingTime.TabIndex = 14;
+            this.TBCastingTime.TabStop = false;
             // 
             // TBLevel
             // 
@@ -189,6 +195,7 @@
             this.TBLevel.ReadOnly = true;
             this.TBLevel.Size = new System.Drawing.Size(494, 20);
             this.TBLevel.TabIndex = 15;
+            this.TBLevel.TabStop = false;
             // 
             // TBSchool
             // 
@@ -197,6 +204,7 @@
             this.TBSchool.ReadOnly = true;
             this.TBSchool.Size = new System.Drawing.Size(494, 20);
             this.TBSchool.TabIndex = 16;
+            this.TBSchool.TabStop = false;
             // 
             // TBClassList
             // 
@@ -205,6 +213,7 @@
             this.TBClassList.ReadOnly = true;
             this.TBClassList.Size = new System.Drawing.Size(494, 20);
             this.TBClassList.TabIndex = 17;
+            this.TBClassList.TabStop = false;
             // 
             // CBRitual
             // 
@@ -214,6 +223,7 @@
             this.CBRitual.Name = "CBRitual";
             this.CBRitual.Size = new System.Drawing.Size(15, 14);
             this.CBRitual.TabIndex = 18;
+            this.CBRitual.TabStop = false;
             this.CBRitual.UseVisualStyleBackColor = true;
             // 
             // CBConcentration
@@ -224,6 +234,7 @@
             this.CBConcentration.Name = "CBConcentration";
             this.CBConcentration.Size = new System.Drawing.Size(15, 14);
             this.CBConcentration.TabIndex = 19;
+            this.CBConcentration.TabStop = false;
             this.CBConcentration.UseVisualStyleBackColor = true;
             // 
             // DetailView

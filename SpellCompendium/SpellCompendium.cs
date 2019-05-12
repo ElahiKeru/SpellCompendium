@@ -14,15 +14,26 @@ namespace SpellCompendium
     public partial class SpellCompendium : Form
     {
         //properties and links to external library
-        SpellContainer fullSpellContainer;
-        List<string> classFilter;
-        List<string> schoolFilter;
-        SpellContainer filteredSpells;
+        private SpellContainer fullSpellContainer;
+        private List<string> classFilter;
+        private List<string> schoolFilter;
+        private List<int> levelFilter;
+        private List<bool> ritualFilter;
+        private List<string> castingFilter;
+        private List<string> componentFilter;
+        private List<bool> concentrationFilter;
+        private string[] castingTimeFilters = { "1 Action", "1 Bonus Action", "1 Reaction" };
+        private SpellContainer filteredSpells;
 
         public SpellCompendium()
         {
             classFilter = new List<string>();
             schoolFilter = new List<string>();
+            levelFilter = new List<int>();
+            ritualFilter = new List<bool>();
+            castingFilter = new List<string>();
+            componentFilter = new List<string>();
+            concentrationFilter = new List<bool>();
             InitializeComponent();
         }
 
@@ -41,6 +52,69 @@ namespace SpellCompendium
 
             //populate the controls
             DGVSpellList.DataSource = fullSpellContainer.Spells;
+            DGVSpellList.Columns["EffectText"].Visible = false;
+        }
+
+        private void ApplyFilters()
+        {
+            filteredSpells = new SpellContainer();
+            var filtered = fullSpellContainer.Spells.Where(p => !string.IsNullOrEmpty(p.Name));
+
+            //apply class list filter if applicable
+            if (classFilter.Count > 0)
+            {
+                filtered = filtered.Where(p => p.ClassList.Split(',').Where(s => classFilter.Contains(s.ToString().Trim())).Count() > 0);
+            }
+
+            //apply school list filter if applicable
+            if(schoolFilter.Count > 0)
+            {
+                filtered = filtered.Where(p => schoolFilter.Contains(p.School));
+            }
+
+            //apply level list filter if applicable
+            if(levelFilter.Count > 0)
+            {
+                filtered = filtered.Where(p => levelFilter.Contains(p.Level));
+            }
+
+            //apply ritual list filter if applicable
+            if(ritualFilter.Count > 0)
+            {
+                filtered = filtered.Where(p => ritualFilter.Contains(p.IsRitual));
+            }
+            
+            //apply casting time filter if applicable
+            if(castingFilter.Count > 0)
+            {
+                if (castingFilter.Contains("Other"))
+                {
+                    filtered = filtered.Where(p => !castingTimeFilters.Contains(p.CastingTime) || castingFilter.Contains(p.CastingTime));
+                }
+                else
+                {
+                    filtered = filtered.Where(p => castingFilter.Contains(p.CastingTime));
+                }
+            }
+            
+            //apply components filter if applicable
+            if(componentFilter.Count > 0)
+            {
+                filtered = filtered.Where(p => p.Components.Split(',').Where(s => componentFilter.Contains(s.ToString().Trim())).Count() > 0);
+            }
+            
+            //apply concentration filter if applicable
+            if(concentrationFilter.Count > 0)
+            {
+                filtered = filtered.Where(p => concentrationFilter.Contains(p.Concentration));
+            }
+
+            foreach (Spell s in filtered)
+            {
+                filteredSpells.Add(s);
+            }
+
+            DGVSpellList.DataSource = filteredSpells.Spells;
         }
 
         private void CLBClass_ItemCheck(object sender, ItemCheckEventArgs e)
@@ -62,23 +136,6 @@ namespace SpellCompendium
             ApplyFilters();
         }
 
-        private void ApplyFilters()
-        {
-            filteredSpells = new SpellContainer();
-            var filtered = fullSpellContainer.Spells.Where(p => !string.IsNullOrEmpty(p.Name));
-            if (classFilter.Count > 0)
-            {
-                filtered = filtered.Where(p => (p.ClassList.Where(s => classFilter.Contains(s.ToString())).Count() > 0));
-            }
-
-            foreach(Spell s in filtered)
-            {
-                filteredSpells.Add(s);
-            }
-
-            DGVSpellList.DataSource = filteredSpells.Spells;
-        }
-
         private void CLBSchool_ItemCheck(object sender, ItemCheckEventArgs e)
         {
             CheckedListBox clb = (CheckedListBox)sender;
@@ -93,6 +150,101 @@ namespace SpellCompendium
             {
                 //remove filter
                 schoolFilter.Remove(entry);
+            }
+
+            ApplyFilters();
+        }
+
+        private void CLBLevel_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            CheckedListBox clb = (CheckedListBox)sender;
+            int.TryParse(clb.Items[e.Index].ToString(), out int entry);
+
+            if(e.NewValue == CheckState.Checked && !levelFilter.Contains(entry))
+            {
+                //apply filter
+                levelFilter.Add(entry);
+            }
+            else
+            {
+                //remove filter
+                levelFilter.Remove(entry);
+            }
+
+            ApplyFilters();
+        }
+
+        private void CLBRitual_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            CheckedListBox clb = (CheckedListBox)sender;
+            bool entry = Utilities.StringToBool(clb.Items[e.Index].ToString());
+
+            if(e.NewValue == CheckState.Checked && !ritualFilter.Contains(entry))
+            {
+                //apply filter
+                ritualFilter.Add(entry);
+            }
+            else
+            {
+                //remove filter
+                ritualFilter.Remove(entry);
+            }
+
+            ApplyFilters();
+        }
+
+        private void CLBCastingTime_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            CheckedListBox clb = (CheckedListBox)sender;
+            string entry = clb.Items[e.Index].ToString();
+
+            if (e.NewValue == CheckState.Checked && !castingFilter.Contains(entry))
+            {
+                //apply filter
+                castingFilter.Add(entry);
+            }
+            else
+            {
+                //remove filter
+                castingFilter.Remove(entry);
+            }
+
+            ApplyFilters();
+        }
+
+        private void CLBComponents_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            CheckedListBox clb = (CheckedListBox)sender;
+            string entry = clb.Items[e.Index].ToString();
+
+            if (e.NewValue == CheckState.Checked && !componentFilter.Contains(entry))
+            {
+                //apply filter
+                componentFilter.Add(entry);
+            }
+            else
+            {
+                //remove filter
+                componentFilter.Remove(entry);
+            }
+
+            ApplyFilters();
+        }
+
+        private void CLBConcentration_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            CheckedListBox clb = (CheckedListBox)sender;
+            bool entry = Utilities.StringToBool(clb.Items[e.Index].ToString());
+
+            if (e.NewValue == CheckState.Checked && !concentrationFilter.Contains(entry))
+            {
+                //apply filter
+                concentrationFilter.Add(entry);
+            }
+            else
+            {
+                //remove filter
+                concentrationFilter.Remove(entry);
             }
 
             ApplyFilters();
