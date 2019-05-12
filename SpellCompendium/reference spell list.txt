@@ -35,30 +35,30 @@ Spell name by caster
     Bestow Curse - B, C, W
     Bigby's Hand - W
     Blade Barrier - C
-Blade Ward - B, S, L, W
-Bless - C, P
-Blight - D, S, L, W
-Blinding Smite - P
-Blindness/Deafness - B, C, S, W
-Blink - S, W
-Blur - S, W
-Bones of the Earth - D
-Branding Smite - P
-Burning Hands - S, W
-Call Lightning - D
-Calm Emotions - B, C
-Catapult - S, W
-Catnap - B, S, W
-Cause Fear - L, W
-Ceremony - C, P
-Chain Lightning - S, W
-Chaos Bolt - S
-Charm Monster - B, D, S, L, W
-Charm Person - B, D, S, L, W
-Chill Touch - S, L, W
-Chromatic Orb - S, W
-Circle of Death - S, L, W
-Circle of Power - P
+    Blade Ward - B, S, L, W
+    Bless - C, P
+    Blight - D, S, L, W
+    Blinding Smite - P
+    Blindness/Deafness - B, C, S, W
+    Blink - S, W
+    Blur - S, W
+    Bones of the Earth - D
+    Branding Smite - P
+    Burning Hands - S, W
+    Call Lightning - D
+    Calm Emotions - B, C
+    Catapult - S, W
+    Catnap - B, S, W
+    Cause Fear - L, W
+    Ceremony - C, P
+    Chain Lightning - S, W
+    Chaos Bolt - S
+    Charm Monster - B, D, S, L, W
+    Charm Person - B, D, S, L, W
+    Chill Touch - S, L, W
+    Chromatic Orb - S, W
+    Circle of Death - S, L, W
+    Circle of Power - P
 Clairvoyance - B, C, S, W
 Clone - W
 Cloud of Daggers - B, S, L, W
