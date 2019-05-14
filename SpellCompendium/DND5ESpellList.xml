@@ -596,7 +596,7 @@ When a creature enters the wall's area for the first time on a turn or starts it
         <components>Verbal, Somatic, Material</components>
         <concentration>Yes</concentration>
         <duration>1 minute</duration>
-        <effect>Material: a springling of holy water.
+        <effect>Material: a sprinkling of holy water.
 You bless up the three creatures of your choice within range. Whenever a target makes an attack roll or saving throw before the spell ends, the target can roll a d4 and add the number to their result
 Higher Spell Levels: +1 target per spell level over 1st.</effect>
     </spell>
@@ -682,7 +682,7 @@ While on the Ethereal Plane, you see and hear the plane you originated from, whi
         <duration>Instantaneous</duration>
         <effect>You cause up to six pillars of stone to burst from places on the ground that you can see within range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The ground where the pillar appears must be wide enough for its diameter, and you can target the ground under a creature if that creature is Medium or smaller. Each pillar has an AC of 5 and 30 HP. When reduced to 0 HP, a pillar crumbles to rubble, which creates an area of difficult terrain with a 10 foot radius that lasts until it is cleared away. Each 5 foot diameter portion of the area requires 1 minute to clear by hand.
 If a pillar is created under a creature, that creature must succeed on a Dexterity save or by lifted by that pillar. They can elect to fail the save.
-If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes 6d6 bludgeoning damage and is restrained, pincehd between the pillar and the obstacle. The restrained creature can use an action to make a Strength or Dexterity check (target's choice) against the spell's save DC. On a success, the creature is no longer restrained and must either move off the pillar or fall off it.
+If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes 6d6 bludgeoning damage and is restrained, pinched between the pillar and the obstacle. The restrained creature can use an action to make a Strength or Dexterity check (target's choice) against the spell's save DC. On a success, the creature is no longer restrained and must either move off the pillar or fall off it.
 Higher Spell Levels: two additional pillars per spell level over 6th.</effect>
     </spell>
     <spell>
@@ -798,7 +798,8 @@ Higher Spell Levels: +1 target per spell level above 1st. The creatures must be 
         <components>Verbal, Somatic, Material</components>
         <concentration>No</concentration>
         <duration>Instantaneous</duration>
-        <effect>You perform a special religious ceremony that is infused with magic. When you cast this spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.
+        <effect>Material: 25 GP worth of powdered silver, which the spell consumes.
+You perform a special religious ceremony that is infused with magic. When you cast this spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.
 Atonement: You touch one willing creature whose alignment has changed, and you make a DC 20 Insight check. On a successful check, you restore the target to its original alignment
 Bless Water: You touch one vial of water and cause it to become holy water.
 Coming of Age: You touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number to their result. Can only be affected by this rite once.
@@ -833,7 +834,7 @@ Higher Spell Levels: +1 additional bolt per spell level over 6th</effect>
         <components>Verbal, Somatic</components>
         <concentration>No</concentration>
         <duration>Instantaneous</duration>
-        <effect>You hurl an undulating warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8+1d6 damage. Choose one of the d8s. The number rolled on that die determins the attack's damage type, as shown below.
+        <effect>You hurl an undulating warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8+1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.
 d8 | Damage Type
  1 | Acid
  2 | Cold
@@ -933,576 +934,740 @@ Higher Spell Levels: +2d6 per spell level over 6th.</effect>
         <effect>Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature saves against a spell or magical effect that allows it to take only half damage , it instead takes no damage if it succeeds.</effect>
     </spell>
     <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
-    </spell>
-    <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
+        <name>Clairvoyance</name>
+        <classlist>B, C, S, W</classlist>
+        <school>Divination</school>
+        <level>3</level>
+        <ritual>No</ritual>
+        <casttime>10 Minutes</casttime>
+        <range>1 Mile</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>10 minutes</duration>
+        <effect>Material: A focus worth at least 100 GP, either a jeweled horn for hearing or a glass eye for seeing.
+You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration and it can't be attacked or otherwise interacted with.
+When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.
+A creature that can see the sensor, such as a creature benefitting from see invisibility or true sight, sees a luminous intangible orb about the size of your fist.</effect>
+    </spell>
+    <spell>
+        <name>Clone</name>
+        <classlist>W</classlist>
+        <school>Necromancy</school>
+        <level>8</level>
+        <ritual>No</ritual>
+        <casttime>1 Hour</casttime>
+        <range>Touch</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>Material: a diamond worth at least 1000 GP and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2000 GP that has a sealable lid and is large enough to hold a medium creature, such as a huge urn, coffin, mud filled cyst in the ground, or crystal container filled with salt water.
+This spell grows an inert duplicate of a living creature as a safeguard against death. This clone forms inside a sealed vessel and grows to full size and maturity after 120 days; you can also choose to have the clone be a younger version of the same creature. It remains inert and endures indefinitely as long as the vessel remains undisturbed.
+At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the equipment. The original creature's physical remains, if they still exist, become inert and can't thereafter be restored to life, since the creature's soul is elsewhere.</effect>
+    </spell>
+    <spell>
+        <name>Cloud of Daggers</name>
+        <classlist>B, S, L, W</classlist>
+        <school>Conjuration</school>
+        <level>2</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>1 minute</duration>
+        <effect>Material: A sliver of glass
+You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes 4d4 slashing damage when it enters the spells' area for the first time on a turn or starts its turn there.
+Higher Spell Levels: +2d4 per spell level over 2nd.</effect>
+    </spell>
+    <spell>
+        <name>Cloudkill</name>
+        <classlist>S, W</classlist>
+        <school>Conjuration</school>
+        <level>5</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>120 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>10 minutes</duration>
+        <effect>You create a 20 foot radius of poisonous, yellow green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.
+When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution save. The creature takes 5d8 poison damage on a failed save, or half as much on a success. Creatures are affected even if they hold their breath or don't need to breathe. The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.
+Higher Spell Levels: +1d8 damage per spell level above 5th.</effect>
+    </spell>
+    <spell>
+        <name>Color Spray</name>
+        <classlist>S, W</classlist>
+        <school>Illusion</school>
+        <level>1</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Self (15 foot cone)</range>
+        <components>Verbal Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>1 Round</duration>
+        <effect>Material: A pinch of powder or sand that is colored red, yellow, and blue.
+A dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can affect. Creatures in a 15 foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious and blind creatures).
+Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.
+Higher Spell Levels: +2d10 per spell level above 1st.</effect>
+    </spell>
+    <spell>
+        <name>Control Flames</name>
+        <classlist>D, S, W</classlist>
+        <school>Transmutation</school>
+        <level>0</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Somatic</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous or 1 Hour</duration>
+        <effect>You choose a nonmagical flame that you can see within range and that fits within a 5 foot cube. You affect it in one of the following ways:
+ - You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.
+ - You instantaneously extinguish the flames within the cube
+ - you double or half the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.
+ - You cause simple shapes, such as the vague form of a creature, an inanimate object, or a location - to appear within the flames and animate as you like. The shapes last for 1 hour.
+If you case this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action.</effect>
+    </spell>
+    <spell>
+        <name>Control Winds</name>
+        <classlist>D, S, W</classlist>
+        <school>Transmutation</school>
+        <level>5</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>300 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>1 Hour</duration>
+        <effect>You take control of the air in a 100 foot cube that you can see within range. Choose one of the following effects when you cast the spell. The effect lasts for the spell's duration, unless you use your action on a later turn to switch to a different effect. You can also use your action to temporarily halt the effect or to restart one you've halted.
+Gusts: A wind picks up within the cube, continually blowing in a horizontal direction you designate. You choose the intensity of the wind: calm, moderate, or strong. If the wind is moderate or strong, ranged weapon attacks that enter or leave the cube or pass through it have disadvantage on their attack rolls. If the wind is strong, any creature moving against the wind must spend 1 extra foot of movement for each foot moved.
+Downdraft: You cause a sustained blast of strong wind to blow downward from the top of the cube. Ranged weapon attacks that pass through the cube or that are made against targets within it have disadvantage on their attack rolls. A creature must make a Strength save if it flies into the cube for the first time on a turn or starts its turn there flying. On a failed save, the creature is knocked prone.
+Updraft: You cause a sustained updraft within the cube, rising upward from the cube's bottom side. Creatures that end a fall within the cube take only half damage from the fall. When a creature in the cube makes a vertical jump, the creature can jump up to 10 feet higher than normal.</effect>
+    </spell>
+    <spell>
+        <name>Command</name>
+        <classlist>C, P</classlist>
+        <school>Enchantment</school>
+        <level>1</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal</components>
+        <concentration>No</concentration>
+        <duration>1 Round</duration>
+        <effect>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom save or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it. Some typical commands and their effects follow. You might issue a command other than one described here. If you do so the DM determines how the creature behaves. If the target can't follow your command, the spell ends.
+Approach: The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.
+Drop: The target drops whatever it is holding and then ends its turn.
+Flee: The target spends its turn moving away from you by the fastest available means.
+Grovel: The target falls prone and then ends its turn.
+Halt: The target doesn't move and takes no actions. A flying creature stays aloft provided it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.
+Higher Spell Levels: +1 target per spell level above 1st. The creatures must be within 30 feet of each other.</effect>
+    </spell>
+    <spell>
+        <name>Commune</name>
+        <classlist>C</classlist>
+        <school>Divination</school>
+        <level>5</level>
+        <ritual>Yes</ritual>
+        <casttime>1 Minute</casttime>
+        <range>Self</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>1 Minute</duration>
+        <effect>Material: Incense and a vial of holy or unholy water.
+You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must as, your questions before the spell ends. You receive a correct answer for each question. Divine beings aren't necessarily omniscient, so you might receive "unclear" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer would be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.
+If you case the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret.</effect>
+    </spell>
+    <spell>
+        <name>Commune with Nature</name>
+        <classlist>D, R</classlist>
+        <school>Divination</school>
+        <level>5</level>
+        <ritual>Yes</ritual>
+        <casttime>1 Minute</casttime>
+        <range>Self</range>
+        <components>Verbal, Somatic</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>You briefly become one with nature, and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn't function where nature has been replaced by construction, such as in dungeons and towns.
+You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area.
+ - Terrain and bodies of water
+ - Prevalent plants, minerals, animals, and peoples
+ - Powerful celestials, fey, fiends, elementals, or undead
+ - Influence from other planes of existence
+ - Buildings
+For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.</effect>
+    </spell>
+    <spell>
+        <name>Compelled Duel</name>
+        <classlist>P</classlist>
+        <school>Enchantment</school>
+        <level>1</level>
+        <ritual>No</ritual>
+        <casttime>1 Bonus Action</casttime>
+        <range>30 feet</range>
+        <components>Verbal</components>
+        <concentration>Yes</concentration>
+        <duration>1 Minute</duration>
+        <effect>You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom save. On a failed save the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on all attack rolls against creatures other than you, and must make a Wisdom save each time it attempt to move to a space more than 30 feet away from you. If it succeeds that save, this spell doesn't restrict their movement for that turn.
+The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell against it, or if you end your turn more than 30 feet away from the target.</effect>
+    </spell>
+    <spell>
+        <name>Comprehend Languages</name>
+        <classlist>B, S, L, W</classlist>
+        <school>Divination</school>
+        <level>1</level>
+        <ritual>Yes</ritual>
+        <casttime>1 Action</casttime>
+        <range>Self</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>1 Hour</duration>
+        <effect>Material: A pinch of soot and salt
+For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. This spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.</effect>
+    </spell>
+    <spell>
+        <name>Compulsion</name>
+        <classlist>B</classlist>
+        <school>Enchantment</school>
+        <level>4</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>30 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>1 minute</duration>
+        <effect>Creatures of your choice that you can see within range and that can hear you must make a Wisdom save. A target automatically succeeds on this save if they can't be charmed. On a failed save a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom save to try to end the effect. A target isn't compelled to move into an obviously deadly hazard, such as fire or a pit, but it will provoke opportunity attacks to move in the designated direction.</effect>
+    </spell>
+    <spell>
+        <name>Cone of Cold</name>
+        <classlist>S, W</classlist>
+        <school>Evocation</school>
+        <level>5</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Self (60 foot cone)</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>Material: a small crystal or glass cone
+A blast of cold air erupts from your hands. Each creature in a 60 foot cone must make a Constitution save. A creature takes 8d8 cold damage on a failed save, or half as much on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.
+Higher Spell Levels: +1d8 damage per spell level above 5th.</effect>
+    </spell>
+    <spell>
+        <name>Confusion</name>
+        <classlist>B, D, S, W</classlist>
+        <school>Enchantment</school>
+        <level>4</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>90 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>1 Minute</duration>
+        <effect>Material: three nut shells
+This spell assaults and twists the creatures' minds, spawning delusions and provoking uncontrolled action. Each creature in a 10 foot radius sphere centered on a point you choose within range must succeed on a Wisdom save when you cast this spell or be affected by it. An affected target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.
+ d10 | Behavior
+  1  | The creature uses all its movement to move in a random direction, takes no action.
+ 2-6 | The creature doesn't move or take actions this turn.
+ 7-8 | The creature makes a melee attack against a random creature in reach, if any.
+ 9-10| The creature can move and act normally.
+At the end of each of its turns, an affected target can make a Wisdom save to end the effect.
+Higher Spell Levels: Radius of the sphere increases by 5 feet per level above 4th.</effect>
+    </spell>
+    <spell>
+        <name>Conjure Animals</name>
+        <classlist>D, R</classlist>
+        <school>Conjuration</school>
+        <level>3</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>1 Hour</duration>
+        <effect>You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:
+ - 1 beast of CR 2 or lower
+ - 2 beasts of CR 1 or lower
+ - 4 beasts of CR 1/2 or lower
+ - 8 beasts of CR 1/4 or lower
+Each beast is also considered fey, and it disappears when it drops to 0 HP or when the spell ends. The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands you give (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures but otherwise take no actions. The DM has the creature's statistics.
+Higher Spell Levels: Affected as follows.
+5th level slot: Double the amount of creatures summoned.
+7th level slot: Triple the amount of creatures summoned.
+9th level slot: Quadruple the amount of creatures summoned.</effect>
+    </spell>
+    <spell>
+        <name>Conjure Barrage</name>
+        <classlist>R</classlist>
+        <school>Conjuration</school>
+        <level>3</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Self (60 foot cone)</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>Material: a single thrown weapon or piece of ammunition.
+You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60 foot cone must make a Dexterity save. A creature takes 3d8 damage on a failed save, or half as much on a successful one. The damage type is the same as that of the weapon or ammunition used as a component.
+Homebrew - Higher Spell Levels: +1d8 damage per spell level over 3rd</effect>
+    </spell>
+    <spell>
+        <name>Conjure Celestial</name>
+        <classlist>C</classlist>
+        <school>Conjuration</school>
+        <level>7</level>
+        <ritual>No</ritual>
+        <casttime>1 Minute</casttime>
+        <range>90 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>1 Hour</duration>
+        <effect>You summon a celestial of CR 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 HP or when the spell ends. The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don't violate its alignment. If you don't issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions. The DM has the celestial's statistics.
+Higher Spell Levels: When you cast this spell using a 9th level spell slot, you summon a celestial of CR 5 or lower.</effect>
+    </spell>
+    <spell>
+        <name>Conjure Elemental</name>
+        <classlist>D, W</classlist>
+        <school>Conjuration</school>
+        <level>5</level>
+        <ritual>No</ritual>
+        <casttime>1 Minute</casttime>
+        <range>90 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>1 Hour</duration>
+        <effect>Material: burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water.
+You call forth an elemental servant. Choose an area of air, earth, fire, or water that fills a 10 foot cube within range. An elemental of CR 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. The elemental disappears when it drops to 0 HP or when the spell ends.
+The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions.
+If your concentration is broken, the elemental doesn't disappear. Instead, you lose control of the elemental and it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can't be dismissed by you and it disappears 1 hour after you summoned it.
+The DM has the elemental's statistics.
+Higher Spell Levels: CR + 1 per spell level above 5th</effect>
+    </spell>
+    <spell>
+        <name>Conjure Fey</name>
+        <classlist>D, L</classlist>
+        <school>Conjuration</school>
+        <level>6</level>
+        <ritual>No</ritual>
+        <casttime>1 Minute</casttime>
+        <range>90 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>1 Hour</duration>
+        <effect>You summon a fey creature of CR 6 or lower, or a fey spirit that takes the form of a beast of CR 6 or lower. It appears in an unoccupied space that you can see within range. The fey disappears when it drops to 0 HP or when the spell ends.
+The fey creature is friendly to you and your companions for the duration. Roll initiative for the fey creature, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the fey creature, it defends itself from hostile creatures but otherwise takes no actions.
+If your concentration is broken, the fey creature doesn't disappear. Instead, you lose control of the fey and it becomes hostile toward you and your companions, and it might attack. An uncontrolled fey can't be dismissed by you and it disappears 1 hour after you summoned it.
+The DM has the fey creature's statistics.
+Higher Spell Levels: CR + 1 per spell level above 6th</effect>
+    </spell>
+    <spell>
+        <name>Conjure Minor Elementals</name>
+        <classlist>D, W</classlist>
+        <school>Conjuration</school>
+        <level>4</level>
+        <ritual>No</ritual>
+        <casttime>1 Minute</casttime>
+        <range>90 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>1 Hour</duration>
+        <effect>You summon elementals that appear in unoccupied spaces that you can see within range. You choose one of the following options for what appears.
+ - 1 elemental of CR 2 or lower
+ - 2 elementals of CR 1 or lower
+ - 4 elementals of CR 1/2 or lower
+ - 8 elementals of CR 1/4 or lower
+An elemental summoned by this spell disappears when it drops to 0 HP or when the spell ends. The summoned creatures are friendly to you and your companions. Roll initiative for them as a group which has its own turns. They obey any verbal command you give them (no action required on your part). If you don't issue any commands to them they defend themselves against hostile creatures, but otherwise take no actions. The DM has the creatures' statistics
+Higher Spell Levels: Affected as follows.
+6th level slot: Double the amount of creatures summoned.
+8th level slot: Triple the amount of creatures summoned.
+</effect>
+    </spell>
+    <spell>
+        <name>Conjure Volley</name>
+        <classlist>R</classlist>
+        <school>Conjuration</school>
+        <level>5</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>150 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>Material: one piece of ammunition or one thrown weapon
+You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40 foot radius, 20 foot high cylinder centered on that point must make a Dexterity save. A creature takes 8d8 damage on a failed save, or half as much damage on a success. The damage type is the same as that of the ammunition or weapon.</effect>
+    </spell>
+    <spell>
+        <name>Conjure Woodland Beings</name>
+        <classlist>D, R</classlist>
+        <school>Conjuration</school>
+        <level>4</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>1 Hour</duration>
+        <effect>Material: one holly berry per creature summoned.
+You summon fey creatures that appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears.
+ - 1 fey creature of CR 2 or lower
+ - 2 fey creatures of CR 1 or lower
+ - 4 fey creatures of CR 1/2 or lower
+ - 8 fey creatures of CR 1/4 or lower
+A fey creature summoned by this spell disappears when it drops to 0 HP or when the spell ends. The summoned creatures are friendly to you and your companions. Roll initiative for them as a group which has its own turns. They obey any verbal command you give them (no action required on your part). If you don't issue any commands to them they defend themselves against hostile creatures, but otherwise take no actions. The DM has the creatures' statistics
+Higher Spell Levels: Affected as follows.
+6th level slot: Double the amount of creatures summoned.
+8th level slot: Triple the amount of creatures summoned.</effect>
+    </spell>
+    <spell>
+        <name>Contact Other Plane</name>
+        <classlist>L, W</classlist>
+        <school>Divination</school>
+        <level>5</level>
+        <ritual>Yes</ritual>
+        <casttime>1 Minute</casttime>
+        <range>Self</range>
+        <components>Verbal</components>
+        <concentration>No</concentration>
+        <duration>1 Minute</duration>
+        <effect>You mentally contact a demigod, the spirit of a long dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence save. On a failure, you take 6d6 psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other people say, can't read, and speak only in gibberish. A greater restoration spell cast on you ends the effect.
+On a successful save, you can ask the entity up to 5 questions. You must ask them before the spell ends. The DM answers each question with one word, such as "Yes", "No", "Maybe", "Never", "Irrelevant", or "Unclear" (if the entity doesn't know the answer to the question). If a one word answer would be misleading, the DM might instead offer a short phrase as an answer.</effect>
+    </spell>
+    <spell>
+        <name>Contagion</name>
+        <classlist>C, D</classlist>
+        <school>Necromancy</school>
+        <level>5</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Touch</range>
+        <components>Verbal, Somatic</components>
+        <concentration>No</concentration>
+        <duration>7 Days</duration>
+        <effect>Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, your afflict the creature with a disease of your choice from any of the ones described below.
+At the end of each of the target's turns, it must make a Constitution save. After failing three of these saving throws, the diseases effects last the duration, nd the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease and the spell ends. Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease's effects apply to it.
+Blinding Sickness: Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saves and is blinded.
+Filth Fever: a raging fever sweeps through the creature's body. The creature has disadvantage on Strength checks, Strength saves, and attack rolls that use Strength.
+Flesh Rot: The creature's flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage.
+Mindfire: The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saves and the creature behaves as if under the effects of confusion during combat.
+Seizure: The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saves, and attack rolls that use Dexterity.
+Slimy Doom: The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saves. In addition, when the creature takes damage it is stunned until the end of its next turn</effect>
+    </spell>
+    <spell>
+        <name>Contingency</name>
+        <classlist>W</classlist>
+        <school>Evocation</school>
+        <level>6</level>
+        <ritual>No</ritual>
+        <casttime>10 minutes</casttime>
+        <range>Self</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>10 days</duration>
+        <effect>Material: A statuette of yourself carved from ivory and decorated with gems worth at least 1500 GP.
+Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 Action, and that can target you. You cast that spell, called the contingent spell, as part of casting contingency, expending the slots for both, but the contingent spell doesn't come into effect. Instead it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, "When I'm completely submerged in water, activate Water Breathing".
+The contingent spell takes effect immediately after the circumstance is met for the first time, whether you want it to or not, and then contingency ends. The contingent spell takes effect only on you, even if it can normally target others. You can only use one contingency spell at a time. If you cast this spell again the effect of the other contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person.</effect>
+    </spell>
+    <spell>
+        <name>Continual Flame</name>
+        <classlist>C, W</classlist>
+        <school>Evocation</school>
+        <level>2</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Touch</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>Until Dispelled</duration>
+        <effect>Material: ruby dust worth 50 GP, which the spell consumes.
+A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched.</effect>
+    </spell>
+    <spell>
+        <name>Control Water</name>
+        <classlist>C, D, W</classlist>
+        <school>Transmutation</school>
+        <level>4</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>300 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>10 minutes</duration>
+        <effect>Material: a drop of water and a pinch of dust.
+Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an action on your turn you can repeat the same effect or choose a different one.
+Flood: You cause the water level of all standing water in the area to rise by as much as 20 feet. If the area includes a shore, the flooding water spills over onto dry land. If you choose an area in a large body of water, you instead create a 20 foot tall wave that travels from one side of the area to the other and then crashes down. Any huge or smaller vehicles in the wave's path are carried with it to the other side. Any huge or smaller vehicles struck by the wave have a 25% chance of capsizing.
+The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts.
+Part Water: You cause the water in an area to move apart to create a trench. The trench extends across the spell's area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored.
+Redirect Flow: You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves past the spells' area, it resumes its flow based on terrain conditions. The water continues to move in the direction you chose until the spell ends or you choose a different effect.
+Whirlpool: This effect requires a body of water at least 50 feet square and 25 feet deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by making an Athletics check against your spell save DC.
+When a creature enters the vortex for the first time on a turn or starts it turn there, it must make a Strength save. On a failure, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as above, but has disadvantage on the Athletics check to do so. The first time each turn that an object enters the vortex, it takes 2d8 bludgeoning damage; this damage occurs each round it remains in the vortex.</effect>
+    </spell>
+    <spell>
+        <name>Control Weather</name>
+        <classlist>C, D, W</classlist>
+        <school>Transmutation</school>
+        <level>8</level>
+        <ritual>No</ritual>
+        <casttime>10 minutes</casttime>
+        <range>Self (5 mile radius)</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>8 hours</duration>
+        <effect>Material: burning incense and bits of earth and wood mixed in water.
+You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell. Moving to a place where you don't have a clear path to the sky ends the spell early.
+When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. it takes 1d4 times 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.
+When you change the weather conditions, find a current condition on the following tables and change its stage by one up or down. When changing the wind, you can also change its direction.
+PRECIPITATION
+Stage | Condition
+   1  | Clear
+   2  | Light Clouds
+   3  | Overcast or ground fog
+   4  | Rain, Hail, or Snow
+   5  | Torrential Rain, Driving Hail, or Blizzard
+
+TEMPERATURE
+Stage | Condition
+   1  | Unbearable Heat
+   2  | Hot
+   3  | Warm
+   4  | Cool
+   5  | Cold
+   6  | Arctic Cold
+
+WIND
+Stage | Condition
+   1  | Calm
+   2  | Moderate Wind
+   3  | Strong Wind
+   4  | Gale
+   5  | Storm</effect>
+    </spell>
+    <spell>
+        <name>Cordon of Arrows</name>
+        <classlist>R</classlist>
+        <school>Transmutation</school>
+        <level>2</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>5 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>8 hours</duration>
+        <effect>Material: four or more arrows or bolts.
+You plant four pieces of nonmagical ammunition, arrows or crossbow bolts, in the ground within range and lay magic upon them to protect an area. Until the spell ends, whenever a creature other than you comes within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity save or take 1d6 piercing damage. The piece of ammunition is then destroyed. The spell ends when no ammunition remains. When you cast this spell, you can designate any creatures you choose, and the spell ignores them.
+Higher Spell Levels: +2 pieces of ammunition per spell level above 2nd.</effect>
+    </spell>
+     <spell>
+        <name>Counterspell</name>
+        <classlist>S, L, W</classlist>
+        <school>Abjuration</school>
+        <level>3</level>
+        <ritual>No</ritual>
+        <casttime>1 Reaction</casttime>
+        <range>60 feet</range>
+        <components>Somatic</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>Reaction: When you see a creature within 60 feet of you casting a spell.
+You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.
+Higher Spell Levels: The interrupted spell instantly has no effect if its level is less than or equal to the level of the spell slot you used.</effect>
+    </spell>
+    <spell>
+        <name>Create Bonfire</name>
+        <classlist>D, S, L, W</classlist>
+        <school>Conjuration</school>
+        <level>0</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>1 minute</duration>
+        <effect>You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5 foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity save or take 1d8 fire damage. A creature must also make the saving throw when it moves into the bonfire's space for the first time or ends its turn there. The bonfire ignites flammable objects in its area that aren't being worn or carried.
+The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8) and 17th level (4d8)</effect>
+    </spell>
+    <spell>
+        <name>Create Food and Water</name>
+        <classlist>C, P</classlist>
+        <school>Conjuration</school>
+        <level>3</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>30 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to 15 humanoids or 5 steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten in 24 hours. The water is clean and doesn't go bad.</effect>
+    </spell>
+    <spell>
+        <name>Create Homunculus</name>
+        <classlist>W</classlist>
+        <school>Transmutation</school>
+        <level>6</level>
+        <ritual>No</ritual>
+        <casttime>1 Hour</casttime>
+        <range>Touch</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>Material: clay, ash, and mandrake root, all of which the spell consumes, and a jewel encrusted dagger worth at least 1000 GP
+While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking 2d4 piercing damage that can't be reduced in any way. You then drip your blood on the spell's other components and touch them, transforming them into a special construct called a homunculus.
+The statistics of a homunculus are in the Monster Manual. It is your faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your hit dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum is reduced by this much and the homunculus's hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 HP, and the change to you and the homunculus's hit points ends when you finish your next long rest. The reduction to your hit point maximum can't be removed by any means before then, except by the homunculus' death.
+You can only have one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails.</effect>
+    </spell>
+    <spell>
+        <name>Create or Destroy Water</name>
+        <classlist>C, D</classlist>
+        <school>Transmutation</school>
+        <level>1</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>30 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>Material: a drop of water if creating water or a few grains of sand if destroying it.
+You either create or destroy water.
+Create: You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30 foot cube within range, extinguishing exposed flames in the area.
+Destroy: You destroy up to 10 gallons of water in an open container within range. Alternatively you destroy fog in a 30 foot cube within range.
+Higher Spell Levels: You create or destroy 10 additional gallons or the size of the cube increases by 5 feet per spell level above 1st.</effect>
+    </spell>
+    <spell>
+        <name>Create Undead</name>
+        <classlist>C, L, W</classlist>
+        <school>Necromancy</school>
+        <level>6</level>
+        <ritual>No</ritual>
+        <casttime>1 Minute</casttime>
+        <range>10 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>Material: One clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 GP black onyx stone for each corpse
+Vou can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a ghoul under your control. (The DM has game statistics for these creatures.)
+As a bonus action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.
+The creature is under your control for 24 hours, after which it stops obeying any command you have given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell, rather than animating new ones.
+Higher Spell Levels: When you cast this spell using a 7th-leveI spell slot, you can animate or reassert control over four ghouls. When you cast this spell using an 8th-level spell slot, you can animate or reassert control over five ghouls or two ghasts or wights. When you cast this spell using a 9th-leveI spell slot, you can animate or reassert control over six ghouls, three ghasts or wights, or two mummies.</effect>
+    </spell>
+    <spell>
+        <name>Creation</name>
+        <classlist>S, W</classlist>
+        <school>Illusion</school>
+        <level>5</level>
+        <ritual>No</ritual>
+        <casttime>1 minute</casttime>
+        <range>30 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>Special</duration>
+        <effect>Material: A tiny piece of matter of the same type of the item you plan to create.
+you pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range: soft goods, rope, wood, or something similar. You can also use the spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5 foot cube, and the object must be of a form and material that you have seen before. The duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration.
+      Material      | Duration
+  Vegetable Matter  | 1 Day
+  Stone or Crystal  | 12 hours
+   Precious metals  | 1 Hour
+        Gems        | 10 minutes
+ Adamantine/Mithral | 1 minute
+Using any material created by this spell as another spell's material component causes that spell to fail.
+Higher Spell Levels: the cube increases by 5 feet per spell level above 5th.</effect>
+    </spell>
+    <spell>
+        <name>Crown of Madness</name>
+        <classlist>B, S, L, W</classlist>
+        <school>Enchantment</school>
+        <level>2</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>120 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>1 minute</duration>
+        <effect>One humanoid of your choice that you can see within range must succeed on a Wisdom save or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes. The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.
+The target can act normally on its turn if you choose no creature or if none are within its reach. On your subsequent turns, you must use your action to maintain control over the target or the spell ends. Also, the target can make a Wisdom save at the end of each of its turns. On a success the spell ends.</effect>
+    </spell>
+    <spell>
+        <name>Crown of Stars</name>
+        <classlist>S, L, W</classlist>
+        <school>Evocation</school>
+        <level>7</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Self</range>
+        <components>Verbal, Somatic</components>
+        <concentration>No</concentration>
+        <duration>1 Hour</duration>
+        <effect>Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus action to send one of those motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes 4d12 radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.
+If you have four or more motes remaining, they shed bright light in a 30 foot radius, and dim light in an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30 foot radius.
+Higher Spell Levels: +2 motes per spell level over 7th.</effect>
+    </spell>
+    <spell>
+        <name>Crusader's Mantle</name>
+        <classlist>P</classlist>
+        <school>Evocation</school>
+        <level>3</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Self</range>
+        <components>Verbal</components>
+        <concentration>Yes</concentration>
+        <duration>1 minute</duration>
+        <effect>Holy power radiates from you in an aura with a 30 foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura, including you, deals an extra 1d4 radiant damage when it hits with a weapon attack.</effect>
+    </spell>
+    <spell>
+        <name>Cure Wounds</name>
+        <classlist>B, C, D, P, R</classlist>
+        <school>Evocation</school>
+        <level>1</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Touch</range>
+        <components>Verbal, Somatic</components>
+        <concentration>No</concentration>
+        <duration>Instantaneous</duration>
+        <effect>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+Higher Spell Levels: +1d8 per spell level over 1st.</effect>
+    </spell>
+    <spell>
+        <name>Dancing Lights</name>
+        <classlist>B, S, W</classlist>
+        <school>Evocation</school>
+        <level>0</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>120 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>1 minute</duration>
+        <effect>You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs which hover in the air for the duration. You can also combine the four lights into one vaguely humanoid form of medium size. Whichever form you choose, each light sheds dim light in a 10 foot radius. As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.</effect>
+    </spell>
+    <spell>
+        <name>Danse Macabre</name>
+        <classlist>L, W</classlist>
+        <school>Necromancy</school>
+        <level>5</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>Yes</concentration>
+        <duration>1 Hour</duration>
+        <effect>Threads of dark power leap from your fingers to pierce up to five small or medium corpses you can see within range. Each corps immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton (the statistics for both being in the Monster Manual), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.
+You can use a bonus action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what action the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete. The creatures are under your control until the spell ends, after which they become inanimate once more.
+Higher Spell Levels +2 targets per spell level over 5th.</effect>
+    </spell>
+    <spell>
+        <name>Darkness</name>
+        <classlist>S, L, W</classlist>
+        <school>Evocation</school>
+        <level>2</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal, Material</components>
+        <concentration>Yes</concentration>
+        <duration>10 minutes</duration>
+        <effect>Material: bat fur and a drop of pitch or piece of coal.
+Magical darkness spreads from a point you choose within range to fill a 15 foot radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it. If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness. If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</effect>
     </spell>
     <spell>
         <name></name>
@@ -6170,5 +6335,5 @@ Higher Spell Levels: +2d6 per spell level over 6th.</effect>
         <concentration></concentration>
         <duration></duration>
         <effect></effect>
-    </spell>
+    </spell> 
 </spells>

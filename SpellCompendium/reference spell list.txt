@@ -59,50 +59,50 @@ Spell name by caster
     Chromatic Orb - S, W
     Circle of Death - S, L, W
     Circle of Power - P
-Clairvoyance - B, C, S, W
-Clone - W
-Cloud of Daggers - B, S, L, W
-Cloudkill - S, W
-Color Spray - S, W
-Control Flames - D, S, W
-Control Winds - D, S, W
-Command - C, P
-Commune - C
-Commune with Nature - D, R
-Compelled Duel - P
-Comprehend Languages - B, S, L, W
-Compulsion - B
-Cone of Cold - S, W
-Confusion - B, D, S, W
-Conjure Animals - D, R
-Conjure Barrage - R
-Conjure Celestial - C
-Conjure Elemental - D, W
-Conjure Fey - D, L
-Conjure Minor Elementals - D, W
-Conjure Volley - R
-Conjure Woodland Beings - D, R
-Contact Other Plane - L, W
-Contagion - C, D
-Contingency - W
-Continual Flame - C, W
-Control Water - C, D, W
-Control Weather - C, D, W
-Cordon of Arrows - R
-Counterspell - S, L, W
-Create Bonfire - D, S, L, W
-Create Food and Water - C, P
-Create Homunculus - W
-Create or Destroy Water - C, D
-Create Undead - C, L, W
-Creation - S, W
-Crown of Madness - B, S, L, W
-Crown of Stars - S, L, W
-Crusader's Mantle - D
-Cure Wounds - B, C, D, P, R
-Dancing Lights - B, S, W
-Danse Macabre - L, W
-Darkness - S, L, W
+    Clairvoyance - B, C, S, W
+    Clone - W
+    Cloud of Daggers - B, S, L, W
+    Cloudkill - S, W
+    Color Spray - S, W
+    Control Flames - D, S, W
+    Control Winds - D, S, W
+    Command - C, P
+    Commune - C
+    Commune with Nature - D, R
+    Compelled Duel - P
+    Comprehend Languages - B, S, L, W
+    Compulsion - B
+    Cone of Cold - S, W
+    Confusion - B, D, S, W
+    Conjure Animals - D, R
+    Conjure Barrage - R
+    Conjure Celestial - C
+    Conjure Elemental - D, W
+    Conjure Fey - D, L
+    Conjure Minor Elementals - D, W
+    Conjure Volley - R
+    Conjure Woodland Beings - D, R
+    Contact Other Plane - L, W
+    Contagion - C, D
+    Contingency - W
+    Continual Flame - C, W
+    Control Water - C, D, W
+    Control Weather - C, D, W
+    Cordon of Arrows - R
+    Counterspell - S, L, W
+    Create Bonfire - D, S, L, W
+    Create Food and Water - C, P
+    Create Homunculus - W
+    Create or Destroy Water - C, D
+    Create Undead - C, L, W
+    Creation - S, W
+    Crown of Madness - B, S, L, W
+    Crown of Stars - S, L, W
+    Crusader's Mantle - P
+    Cure Wounds - B, C, D, P, R
+    Dancing Lights - B, S, W
+    Danse Macabre - L, W
+    Darkness - S, L, W
 Darkvision - D, R, S, W
 Dawn - C, W
 Daylight - C, D, P, R, S
