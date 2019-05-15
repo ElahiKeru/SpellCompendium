@@ -1670,69 +1670,75 @@ Higher Spell Levels +2 targets per spell level over 5th.</effect>
 Magical darkness spreads from a point you choose within range to fill a 15 foot radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it. If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness. If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</effect>
     </spell>
     <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
+        <name>Darkvision</name>
+        <classlist>D, R, S, W</classlist>
+        <school>Transmutation</school>
+        <level>2</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Touch</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>No</concentration>
+        <duration>8 Hours</duration>
+        <effect>Material: either a pinch of dried carrot or an agate.
+You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out ot a range of 60 feet.</effect>
     </spell>
     <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
+        <name>Dawn</name>
+        <classlist>C, W</classlist>
+        <school>Evocation</school>
+        <level>5</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>1 Minute</duration>
+        <effect>Material: A sunburst pendant worth at least 100 GP
+The light of dawn shines down on a location you specify within range. Until the spell ends, a 30 foot radius, 40 foot high cylinder of bright light glimmers there. This light is sunlight.
+When the cylinder appears, each creature in it must make a Constitution save, taking 4d10 radiant damage on a failed save, and half as much on a success. A creature must also make this saving throw whenever it ends its turn in the cylinder. If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn.</effect>
     </spell>
     <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
+        <name>Daylight</name>
+        <classlist>C, D, P, R, S</classlist>
+        <school>Evocation</school>
+        <level>3</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>60 feet</range>
+        <components>Verbal, Somatic</components>
+        <concentration>No</concentration>
+        <duration>1 Hour</duration>
+        <effect>A 60 foot radius sphere of light spreads out from a point you choose within range. The sphere is bright light and sheds dim light for an additional 60 feet. If you chose a point or an object you are holding or one that isn't being worn or carried, the light shines from the object and moves with it. Completely covering the affected object with an opaque object, such as a bowl or helm, blocks the light. If any of the spell's area overlaps with an area of darkness created by a spell of 3rd level or lest, the spell that created the darkness is dispelled.</effect>
     </spell>
     <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
+        <name>Death Ward</name>
+        <classlist>C, P</classlist>
+        <school>Abjuration</school>
+        <level>4</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>Touch</range>
+        <components>Verbal, Somatic</components>
+        <concentration>No</concentration>
+        <duration>8 Hours</duration>
+        <effect>You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 HP as a result of taking damage, the target instead drops to 1 HP and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.</effect>
     </spell>
     <spell>
-        <name></name>
-        <classlist></classlist>
-        <school></school>
-        <level></level>
-        <ritual></ritual>
-        <casttime></casttime>
-        <range></range>
-        <components></components>
-        <concentration></concentration>
-        <duration></duration>
-        <effect></effect>
+        <name>Delayed Blast Fireball</name>
+        <classlist>S, W</classlist>
+        <school>Evocation</school>
+        <level>7</level>
+        <ritual>No</ritual>
+        <casttime>1 Action</casttime>
+        <range>150 feet</range>
+        <components>Verbal, Somatic, Material</components>
+        <concentration>Yes</concentration>
+        <duration>1 Minute</duration>
+        <effect>Material: A tiny ball of bat guano and sulfur
+A beam of yellow light flashes from your pointing finger, then condenses to linger at a chosen point within range as a glowing bead for the duration. When the spell ends, either because your concentration is broken or because you decide to end it, the bead blossoms with a low roar into an explosion of flame that spreads around corners. Each creature in a 20 foot radius sphere centered on that point must make a Dexterity save. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much on a success.
+The spell's base damage is 12d6. If at the end of your turn the bead has not yet detonated, it increases by 1d6. If the glowing bead is touched before the interval has expired, the creature touching it must make a Dexterity save. On a failed save, the spell ends immediately, causing the bead to erupt in flame. On a successful save, the creature can throw the bead up to 40 feet. When it strikes a creature or solid object, the spell ends and the bead explodes. The fire damages objects in the area and ignites flammable objects that aren't being worn or carried.
+Higher Spell Levels: +1d6 base damage per spell level above 7th.</effect>
     </spell>
     <spell>
         <name></name>
@@ -6335,5 +6341,5 @@ Magical darkness spreads from a point you choose within range to fill a 15 foot 
         <concentration></concentration>
         <duration></duration>
         <effect></effect>
-    </spell> 
+    </spell>--> 
 </spells>

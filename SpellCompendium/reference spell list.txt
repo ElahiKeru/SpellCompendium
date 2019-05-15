@@ -103,11 +103,11 @@ Spell name by caster
     Dancing Lights - B, S, W
     Danse Macabre - L, W
     Darkness - S, L, W
-Darkvision - D, R, S, W
-Dawn - C, W
-Daylight - C, D, P, R, S
-Death Ward - C, P
-Delayed Blast Fireball - S, W
+    Darkvision - D, R, S, W
+    Dawn - C, W
+    Daylight - C, D, P, R, S
+    Death Ward - C, P
+    Delayed Blast Fireball - S, W
 Demiplane - L, W
 Destructive Smite - P
 Destructive Wave - C
