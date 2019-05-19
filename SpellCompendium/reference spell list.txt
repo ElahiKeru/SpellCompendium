@@ -108,80 +108,79 @@ Spell name by caster
     Daylight - C, D, P, R, S
     Death Ward - C, P
     Delayed Blast Fireball - S, W
-Demiplane - L, W
-Destructive Smite - P
-Destructive Wave - C
-Detect Evil and Good - C, P
-Detect Magic - B, C, D, P, R, S, W
-Detect Poison and Disease - C, D, P, R
-Detect Thoughts - B, S, W
-Dimension Door - B, S, L, W
-Disguise Self - B, S, W
-Disintegrate - S, W
-Dispel Evil and Good - C, P
-Dispel Magic - B, C, D, P, S, L, W
-Dissonant Whispers - B
-Divination - C
-Divine Favor - P
-Divine Word - C
-Dominate Beast - D, S
-Dominate Monster - B, S, L, W
-Dominate Person - B, S, W
-Dragon's Breath - S, W
-Drawmij's Instant Summons - W
-Druid Grove - D
-Dream - B, L, W
-Druidcraft - D
-Dust Devil - D, S, W
-Earthbind - C, S, L, W
-Earthquake - C, D, S
-Earth Tremor - B, D, S, W
-Eldritch Blast - L
-Elemental Bane - D, L, W
-Elemental Weapon - P
-Enemies Abound - B, S, L, W
-Enervation - S, L, W
-Enhance Ability - B, C, D, S
-Enlarge/Reduce - S, W
-Ensnaring Strike - R
-Entangle - D
-Enthrall - B, L
-Erupting Earth - D, S, W
-Etherealness - B, C, S, L, W
-Evard's Black Tentacles - W
-Expeditious Retreat - S, L, W
-Eyebite - B, S, L, W
-Fabricate - W
-Faerie Fire - B, D
-False Life - S, W
-Far Step - S, L, W
-Fear - B, S, L, W
-Feather Fall - B, S, W
-Feeblemind - B, D, L, W
-Feign Death - B, C, D, W
-Find Familiar - W
-Find Greater Steed - P
-Find Steed - P
-Find the Path - B, C, D
-Find Traps - C, D, R
-Finger of Death - S, L, W
-Fireball - S, W
-Fire Bolt - S, W
-Fire Shield - W
-Fire Storm - C, D, S
-Flame Arrows - D, R, S, W
-Flame Blade - D
-Flame Strike - C
-Flaming Sphere - D, W
-Flesh to Stone - L, W
-Fly - S, L, W
-Fog Cloud - D, R, S, W
-Forbiddance - C
-Forcecage - B, L, W
-Foresight - B, D, L W
-Freedom of Movement - B, C, D, R
-Friends - B, S, L, W
-Frostbite - D, S, L, W
+    Demiplane - L, W
+    Destructive Wave - C, P
+    Detect Evil and Good - C, P
+    Detect Magic - B, C, D, P, R, S, W
+    Detect Poison and Disease - C, D, P, R
+    Detect Thoughts - B, S, W
+    Dimension Door - B, S, L, W
+    Disguise Self - B, S, W
+    Disintegrate - S, W
+    Dispel Evil and Good - C, P
+    Dispel Magic - B, C, D, P, S, L, W
+    Dissonant Whispers - B
+    Divination - C
+    Divine Favor - P
+    Divine Word - C
+    Dominate Beast - D, S
+    Dominate Monster - B, S, L, W
+    Dominate Person - B, S, W
+    Dragon's Breath - S, W
+    Drawmij's Instant Summons - W
+    Druid Grove - D
+    Dream - B, L, W
+    Druidcraft - D
+    Dust Devil - D, S, W
+    Earthbind - C, S, L, W
+    Earthquake - C, D, S
+    Earth Tremor - B, D, S, W
+    Eldritch Blast - L
+    Elemental Bane - D, L, W
+    Elemental Weapon - P
+    Enemies Abound - B, S, L, W
+    Enervation - S, L, W
+    Enhance Ability - B, C, D, S
+    Enlarge/Reduce - S, W
+    Ensnaring Strike - R
+    Entangle - D
+    Enthrall - B, L
+    Erupting Earth - D, S, W
+    Etherealness - B, C, S, L, W
+    Evard's Black Tentacles - W
+    Expeditious Retreat - S, L, W
+    Eyebite - B, S, L, W
+    Fabricate - W
+    Faerie Fire - B, D
+    False Life - S, W
+    Far Step - S, L, W
+    Fear - B, S, L, W
+    Feather Fall - B, S, W
+    Feeblemind - B, D, L, W
+    Feign Death - B, C, D, W
+    Find Familiar - W
+    Find Greater Steed - P
+    Find Steed - P
+    Find the Path - B, C, D
+    Find Traps - C, D, R
+    Finger of Death - S, L, W
+    Fireball - S, W
+    Fire Bolt - S, W
+    Fire Shield - W
+    Fire Storm - C, D, S
+    Flame Arrows - D, R, S, W
+    Flame Blade - D
+    Flame Strike - C
+    Flaming Sphere - D, W
+    Flesh to Stone - L, W
+    Fly - S, L, W
+    Fog Cloud - D, R, S, W
+    Forbiddance - C
+    Forcecage - B, L, W
+    Foresight - B, D, L W
+    Freedom of Movement - B, C, D, R
+    Friends - B, S, L, W
+    Frostbite - D, S, L, W
 Gaseous Form - S, L, W
 Gate - C, S, W
 Geas - B, C, D, P, W
