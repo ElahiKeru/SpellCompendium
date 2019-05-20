@@ -181,29 +181,29 @@ Spell name by caster
     Freedom of Movement - B, C, D, R
     Friends - B, S, L, W
     Frostbite - D, S, L, W
-Gaseous Form - S, L, W
-Gate - C, S, W
-Geas - B, C, D, P, W
-Gentle Repose - C, W
-Giant Insect - D
-Glibness - B, L
-Globe of Invulnerability - S, W
-Glyph of Warding - B, C, W
-Goodberry - D, R
-Grasping Vine - D, R
-Grease - W
-Greater Invisibility - B, S, W
-Guardian of Nature - D, R
-Greater Restoration - B, C, D
-Guardian of Faith - C
-Guards and Wards - B, W
-Guidance - C, D
-Guiding Bolt - C
-Gust - D, S, W
-Gust of Wind - D, S, W
-Hail of Thorns - R
-Hallow - C
-Hallucinatory Terrain - B, D, L, W
+    Gaseous Form - S, L, W
+    Gate - C, S, W
+    Geas - B, C, D, P, W
+    Gentle Repose - C, W
+    Giant Insect - D
+    Glibness - B, L
+    Globe of Invulnerability - S, W
+    Glyph of Warding - B, C, W
+    Goodberry - D, R
+    Grasping Vine - D, R
+    Grease - W
+    Greater Invisibility - B, S, W
+    Greater Restoration - B, C, D
+    Guardian of Faith - C
+    Guardian of Nature - D, R
+    Guards and Wards - B, W
+    Guidance - C, D
+    Guiding Bolt - C
+    Gust - D, S, W
+    Gust of Wind - D, S, W
+    Hail of Thorns - R
+    Hallow - C
+    Hallucinatory Terrain - B, D, L, W
 Harm - C
 Haste - S, W
 Heal - C, D
