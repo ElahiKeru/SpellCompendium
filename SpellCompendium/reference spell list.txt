@@ -204,254 +204,254 @@ Spell name by caster
     Hail of Thorns - R
     Hallow - C
     Hallucinatory Terrain - B, D, L, W
-Harm - C
-Haste - S, W
-Heal - C, D
-Healing Spirit - D, R
-Healing Word - B, C, D
-Heat Metal - B, D
-Hellish Rebuke - L
-Heroes' Feast - C, D
-Heroism - B, P
-Hex - L
-Hold Monster - B, S, L, W
-Hold Person - B, C, D, S, L, W
-Holy Aura - C
-Holy Weapon - C, P
-Hunger of Hadar - L
-Hunter's Mark - R
-Hypnotic Pattern - B, S, L, W
-Ice Knife - D, S, W
-Ice Storm - D, S, W
-Identify - B, W
-Illusory Dragon - W
-Illusory Script - B, L, W
-Immolation - S, W
-Imprisonment - L, W
-Incendiary Cloud - S, W
-Infernal Calling - L, W
-Infestation - D, S, L, W
-Inflict Wounds - C
-Insect Plague - C, D, S
-Investiture of Flame - D, S, L, W
-Investiture of Ice - D, S, L, W
-Investiture of Stone - D, S, L, W
-Investiture of Wind - D, S, L, W
-Invisibility - B, S, L, W
-Invulnerability - W
-Jump - D, R, S, W
-Knock - B, S, W
-Legend Lore - B, C, W
-Leomund's Secret Chest - W
-Leomund's Tiny Hut - B, W
-Lesser Restoration - B, C, D, P, R
-Levitate - S, W
-Life Transference - C, W
-Light - B, C, S, W
-Lightning Arrow - R
-Lightning Bolt - S, W
-Locate Animals or Plants - B, D, R
-Locate Creature - B, C, D, P, R, W
-Locate Object - B, C, D, P, R, W
-Longstrider - B, D, R, W
-Maddening Darkness - L, W
-Maelstrom - D
-Mage Armor - S, W
-Mage Hand - B, S, L, W
-Magic Circle - C, P, L, W
-Magic Jar - W
-Magic Missile - S, W
-Magic Mouth - B, W
-Magic Stone - D, L
-Magic Weapon - P, W
-Major Image - B, S, L, W
-Mass Cure Wounds - B, C, D
-Mass Heal - C
-Mass Healing Word - C
-Mass Polymorph - B, S, W
-Mass Suggestion - B, S, L, W
-Maximilian's Earthen Grasp - S, W
-Maze - W
-Meld Into Stone - C, D
-Melf's Acid Arrow - S, W
-Melf's Minute Meteors - W
-Mending - B, C, D, S, W
-Mental Prison - S, L, W
-Message - B, S, W
-Meteor Swarm - S, W
-Mighty Fortress - W
-Mind Blank - B, W
-Mind Spike - S, L, W
-Minor Illusion - B, S, L, W
-Mirage Arcane - B, D, W
-Mirror Image - S, L, W
-Mislead - B, W
-Misty Step - S, L, W
-Modify Memory - B, W
-Mold Earth - D, S, W
-Moonbeam - D
-Mordenkainen's Faithful Hound - W
-Mordenkainen's Magnificent Mansion - B, W
-Mordenkainen's Private Sanctum - W
-Mordenkainen's Sword - B, W
-Move Earth - D, S, W
-Negative Energy Flood - L, W
-Nondetection - B, R, W
-Nystul's Magic Aura - W
-Otiluke's Freezing Sphere - W
-Otiluke's Resilient Sphere - W
-Otto's Irresistible Dance - B, W
-Pass Without Trace - D, R
-Passwall - W
-Phantasmal Force - B, S, W
-Phantasmal Killer - W
-Phantom Steed - W
-Planar Ally - C
-Planar Binding - B, C, D, W
-Plane Shift - C, D, S, L, W
-Plant Growth - B, D, R
-Poison Spray - D, S, L, W
-Polymorph - B, D, S, W
-Power Word Heal - B
-Power Word Kill - B, S, L, W
-Power Word Pain - S, L, W
-Power Word Stun - B, S, L, W
-Prayer of Healing - C
-Prestidigitation - B, S, L, W
-Primal Savagery - D
-Primordial Ward - D
-Prismatic Spray - S, W
-Prismatic Wall - W
-Produce Flame - D
-Programmed Illusion - B, W
-Project Image - B, W
-Protection from Energy - C, D, R, S, W
-Protection from Evil and Good - C, P, L, W
-Protection from Poison - C, D, P, R
-Psychic Scream - B, S, L, W
-Purify Food and Drink - C, D, P
-Pyrotechnics - B, S, W
-Raise Dead - B, C, P
-Rary's Telepathic Bond - W
-Ray of Enfeeblement - L, W
-Ray of Frost - S, W
-Ray of Sickness - S, W
-Regenerate - B, C, D
-Reincarnate - D
-Remove Curse - C, P, L, W
-Resistance - C, D
-Resurrection - B, C
-Reverse Gravity - D, S, W
-Revivify - C, P
-Rope Trick - W
-Sacred Flame - C
-Sanctuary - C
-Scatter - S, L, W
-Scorching Ray - S, W
-Scrying - B, C, D, L, W
-Searing Smite - P
-See Invisibility - B, S, W
-Seeming - B, S, W
-Sending - B, C, W
-Sequester - W
-Shadow Blade - S, L, W
-Shadow of Moil - L
-Shapechange - D, W
-Shape Water - D, S, W
-Shatter - B, S, L, W
-Shield - S, W
-Shield of Faith - C, P
-Shillelagh - D
-Shocking Grasp - S, W
-Sickening Radiance - S, L, W
-Silence - B, C, R
-Silent Image - B, S, W
-Simulacrum - W
-Skill Empowerment - B, S, W
-Skywrite - B, D, W
-Sleep - B, S, W
-Sleet Storm - D, S, W
-Slow - S, W
-Snare - D, R, W
-Snilloc's Snowball Swarm - S, W
-Soul Cage - L, W
-Spare the Dying - C
-Speak with Animals - B, D, R
-Speak with the Dead - B, C
-Speak with Plants - B, D, R
-Spider Climb - S, L, W
-Spike Growth - D, R
-Spirit Guardians - C
-Spiritual Weapon - C
-Staggering Smite - P
-Steel Wind Strike - R, W
-Stinking Cloud - B, S, W
-Stone Shape - C, D, W
-Stoneskin - D, R, S, W
-Storm of Vengeance - D
-Storm Sphere - S, W
-Suggestion - B, S, L, W
-Summon Greater Demon - L, W
-Summon Lesser Demons - L, W
-Sunbeam - D, S, W
-Sunburst - D, S, W
-Swift Quiver - R
-Symbol - B, C, W
-Synaptic Static - B, S, L, W
-Tasha's Hideous Laughter - B, W
-Telekinesis - S, W
-Telepathy - W
-Teleport - B, S, W
-Teleportation Circle - B, S, W
-Temple of the Gods - C
-Tenser's Floating Disk - W
-Tenser's Transformation - W
-Thaumaturgy - C
-Thorn Whip - D
-Thunderclap - B, D, S, L, W
-Thunderous Smite - P
-Thunder Step - S, L, W
-Thunderwave - B, D, S, W
-Tidal Wave - D, S, W
-Time Stop - S, W
-Tiny Servant - W
-Toll the Dead - C, L, W
-Tongues - B, C, S, L, W
-Transmute Rock - D, W
-Transport Via Plants - D
-Tree Stride - D, R
-True Polymorph - B, L, W
-True Resurrection - C, D
-True Seeing - B, C, S, L, W
-True Strike - B, S, L, W
-Tsunami - D
-Unseen Servant - B, L, W
-Vampiric Touch - L, W
-Vicious Mockery - B
-Vitriolic Sphere - S, W
-Wall of Fire - D, S, W
-Wall of Force - W
-Wall of Ice - W
-Wall of Light - S, L, W
-Wall of Sand - W
-Wall of Stone - D, S, W
-Wall of Thorns - D
-Wall of Water - D, S, W
-Warding Bond - C
-Warding Wind - B, D, S, W
-Watery Sphere - D, S, W
-Water Breathing - D, R, S, W
-Water Walk - C, D, R, S
-Web - S, W
-Weird - W
-Whirlwind - D, S, W
-Wind Walk - D
-Wind Wall - D, R
-Wish - S, W
-Witch Bolt - S, L, W
-Word of Radiance - C
-Word of Recall - C
-Wrathful Smite - P
-Wrath of Nature - D, R
-Zephyr Strike - R
-Zone of Truth - B, C, P
+    Harm - C
+    Haste - S, W
+    Heal - C, D
+    Healing Spirit - D, R
+    Healing Word - B, C, D
+    Heat Metal - B, D
+    Hellish Rebuke - L
+    Heroes' Feast - C, D
+    Heroism - B, P
+    Hex - L
+    Hold Monster - B, S, L, W
+    Hold Person - B, C, D, S, L, W
+    Holy Aura - C
+    Holy Weapon - C, P
+    Hunger of Hadar - L
+    Hunter's Mark - R
+    Hypnotic Pattern - B, S, L, W
+    Ice Knife - D, S, W
+    Ice Storm - D, S, W
+    Identify - B, W
+    Illusory Dragon - W
+    Illusory Script - B, L, W
+    Immolation - S, W
+    Imprisonment - L, W
+    Incendiary Cloud - S, W
+    Infernal Calling - L, W
+    Infestation - D, S, L, W
+    Inflict Wounds - C
+    Insect Plague - C, D, S
+    Investiture of Flame - D, S, L, W
+    Investiture of Ice - D, S, L, W
+    Investiture of Stone - D, S, L, W
+    Investiture of Wind - D, S, L, W
+    Invisibility - B, S, L, W
+    Invulnerability - W
+    Jump - D, R, S, W
+    Knock - B, S, W
+    Legend Lore - B, C, W
+    Leomund's Secret Chest - W
+    Leomund's Tiny Hut - B, W
+    Lesser Restoration - B, C, D, P, R
+    Levitate - S, W
+    Life Transference - C, W
+    Light - B, C, S, W
+    Lightning Arrow - R
+    Lightning Bolt - S, W
+    Locate Animals or Plants - B, D, R
+    Locate Creature - B, C, D, P, R, W
+    Locate Object - B, C, D, P, R, W
+    Longstrider - B, D, R, W
+    Maddening Darkness - L, W
+    Maelstrom - D
+    Mage Armor - S, W
+    Mage Hand - B, S, L, W
+    Magic Circle - C, P, L, W
+    Magic Jar - W
+    Magic Missile - S, W
+    Magic Mouth - B, W
+    Magic Stone - D, L
+    Magic Weapon - P, W
+    Major Image - B, S, L, W
+    Mass Cure Wounds - B, C, D
+    Mass Heal - C
+    Mass Healing Word - C
+    Mass Polymorph - B, S, W
+    Mass Suggestion - B, S, L, W
+    Maximilian's Earthen Grasp - S, W
+    Maze - W
+    Meld Into Stone - C, D
+    Melf's Acid Arrow - S, W
+    Melf's Minute Meteors - W
+    Mending - B, C, D, S, W
+    Mental Prison - S, L, W
+    Message - B, S, W
+    Meteor Swarm - S, W
+    Mighty Fortress - W
+    Mind Blank - B, W
+    Mind Spike - S, L, W
+    Minor Illusion - B, S, L, W
+    Mirage Arcane - B, D, W
+    Mirror Image - S, L, W
+    Mislead - B, W
+    Misty Step - S, L, W
+    Modify Memory - B, W
+    Mold Earth - D, S, W
+    Moonbeam - D
+    Mordenkainen's Faithful Hound - W
+    Mordenkainen's Magnificent Mansion - B, W
+    Mordenkainen's Private Sanctum - W
+    Mordenkainen's Sword - B, W
+    Move Earth - D, S, W
+    Negative Energy Flood - L, W
+    Nondetection - B, R, W
+    Nystul's Magic Aura - W
+    Otiluke's Freezing Sphere - W
+    Otiluke's Resilient Sphere - W
+    Otto's Irresistible Dance - B, W
+    Pass Without Trace - D, R
+    Passwall - W
+    Phantasmal Force - B, S, W
+    Phantasmal Killer - W
+    Phantom Steed - W
+    Planar Ally - C
+    Planar Binding - B, C, D, W
+    Plane Shift - C, D, S, L, W
+    Plant Growth - B, D, R
+    Poison Spray - D, S, L, W
+    Polymorph - B, D, S, W
+    Power Word Heal - B
+    Power Word Kill - B, S, L, W
+    Power Word Pain - S, L, W
+    Power Word Stun - B, S, L, W
+    Prayer of Healing - C
+    Prestidigitation - B, S, L, W
+    Primal Savagery - D
+    Primordial Ward - D
+    Prismatic Spray - S, W
+    Prismatic Wall - W
+    Produce Flame - D
+    Programmed Illusion - B, W
+    Project Image - B, W
+    Protection from Energy - C, D, R, S, W
+    Protection from Evil and Good - C, P, L, W
+    Protection from Poison - C, D, P, R
+    Psychic Scream - B, S, L, W
+    Purify Food and Drink - C, D, P
+    Pyrotechnics - B, S, W
+    Raise Dead - B, C, P
+    Rary's Telepathic Bond - W
+    Ray of Enfeeblement - L, W
+    Ray of Frost - S, W
+    Ray of Sickness - S, W
+    Regenerate - B, C, D
+    Reincarnate - D
+    Remove Curse - C, P, L, W
+    Resistance - C, D
+    Resurrection - B, C
+    Reverse Gravity - D, S, W
+    Revivify - C, P
+    Rope Trick - W
+    Sacred Flame - C
+    Sanctuary - C
+    Scatter - S, L, W
+    Scorching Ray - S, W
+    Scrying - B, C, D, L, W
+    Searing Smite - P
+    See Invisibility - B, S, W
+    Seeming - B, S, W
+    Sending - B, C, W
+    Sequester - W
+    Shadow Blade - S, L, W
+    Shadow of Moil - L
+    Shapechange - D, W
+    Shape Water - D, S, W
+    Shatter - B, S, L, W
+    Shield - S, W
+    Shield of Faith - C, P
+    Shillelagh - D
+    Shocking Grasp - S, W
+    Sickening Radiance - S, L, W
+    Silence - B, C, R
+    Silent Image - B, S, W
+    Simulacrum - W
+    Skill Empowerment - B, S, W
+    Skywrite - B, D, W
+    Sleep - B, S, W
+    Sleet Storm - D, S, W
+    Slow - S, W
+    Snare - D, R, W
+    Snilloc's Snowball Swarm - S, W
+    Soul Cage - L, W
+    Spare the Dying - C
+    Speak with Animals - B, D, R
+    Speak with the Dead - B, C
+    Speak with Plants - B, D, R
+    Spider Climb - S, L, W
+    Spike Growth - D, R
+    Spirit Guardians - C
+    Spiritual Weapon - C
+    Staggering Smite - P
+    Steel Wind Strike - R, W
+    Stinking Cloud - B, S, W
+    Stone Shape - C, D, W
+    Stoneskin - D, R, S, W
+    Storm of Vengeance - D
+    Storm Sphere - S, W
+    Suggestion - B, S, L, W
+    Summon Greater Demon - L, W
+    Summon Lesser Demons - L, W
+    Sunbeam - D, S, W
+    Sunburst - D, S, W
+    Swift Quiver - R
+    Symbol - B, C, W
+    Synaptic Static - B, S, L, W
+    Tasha's Hideous Laughter - B, W
+    Telekinesis - S, W
+    Telepathy - W
+    Teleport - B, S, W
+    Teleportation Circle - B, S, W
+    Temple of the Gods - C
+    Tenser's Floating Disk - W
+    Tenser's Transformation - W
+    Thaumaturgy - C
+    Thorn Whip - D
+    Thunderclap - B, D, S, L, W
+    Thunderous Smite - P
+    Thunder Step - S, L, W
+    Thunderwave - B, D, S, W
+    Tidal Wave - D, S, W
+    Time Stop - S, W
+    Tiny Servant - W
+    Toll the Dead - C, L, W
+    Tongues - B, C, S, L, W
+    Transmute Rock - D, W
+    Transport Via Plants - D
+    Tree Stride - D, R
+    True Polymorph - B, L, W
+    True Resurrection - C, D
+    True Seeing - B, C, S, L, W
+    True Strike - B, S, L, W
+    Tsunami - D
+    Unseen Servant - B, L, W
+    Vampiric Touch - L, W
+    Vicious Mockery - B
+    Vitriolic Sphere - S, W
+    Wall of Fire - D, S, W
+    Wall of Force - W
+    Wall of Ice - W
+    Wall of Light - S, L, W
+    Wall of Sand - W
+    Wall of Stone - D, S, W
+    Wall of Thorns - D
+    Wall of Water - D, S, W
+    Warding Bond - C
+    Warding Wind - B, D, S, W
+    Watery Sphere - D, S, W
+    Water Breathing - D, R, S, W
+    Water Walk - C, D, R, S
+    Web - S, W
+    Weird - W
+    Whirlwind - D, S, W
+    Wind Walk - D
+    Wind Wall - D, R
+    Wish - S, W
+    Witch Bolt - S, L, W
+    Word of Radiance - C
+    Word of Recall - C
+    Wrathful Smite - P
+    Wrath of Nature - D, R
+    Zephyr Strike - R
+    Zone of Truth - B, C, P

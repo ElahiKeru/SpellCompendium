@@ -249,5 +249,43 @@ namespace SpellCompendium
 
             ApplyFilters();
         }
+
+        private void DGVSpellList_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            List<Spell> output = (List<Spell>)DGVSpellList.DataSource;
+            switch(e.ColumnIndex)
+            {
+                case 0:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.Name).ToList();
+                    break;
+                case 1:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.ClassList).ToList();
+                    break;
+                case 2:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.School).ToList();
+                    break;
+                case 3:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.Level).ToList();
+                    break;
+                case 4:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.IsRitual).ToList();
+                    break;
+                case 5:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.CastingTime).ToList();
+                    break;
+                case 6:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.Range).ToList();
+                    break;
+                case 7:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.Components).ToList();
+                    break;
+                case 8:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.Concentration).ToList();
+                    break;
+                case 9:
+                    DGVSpellList.DataSource = output.OrderBy(x => x.Duration).ToList();
+                    break;
+            }
+        }
     }
 }

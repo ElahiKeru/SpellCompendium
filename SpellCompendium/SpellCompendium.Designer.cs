@@ -48,15 +48,19 @@
             // 
             // DGVSpellList
             // 
+            this.DGVSpellList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.DGVSpellList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVSpellList.Location = new System.Drawing.Point(9, 97);
-            this.DGVSpellList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DGVSpellList.Margin = new System.Windows.Forms.Padding(2);
             this.DGVSpellList.Name = "DGVSpellList";
             this.DGVSpellList.ReadOnly = true;
             this.DGVSpellList.RowTemplate.Height = 24;
             this.DGVSpellList.Size = new System.Drawing.Size(756, 349);
             this.DGVSpellList.TabIndex = 0;
             this.DGVSpellList.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGVSpellList_CellDoubleClick);
+            this.DGVSpellList.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DGVSpellList_ColumnHeaderMouseClick);
             // 
             // LBLClass
             // 
@@ -141,7 +145,7 @@
             "L",
             "W"});
             this.CLBClass.Location = new System.Drawing.Point(9, 29);
-            this.CLBClass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CLBClass.Margin = new System.Windows.Forms.Padding(2);
             this.CLBClass.Name = "CLBClass";
             this.CLBClass.Size = new System.Drawing.Size(91, 64);
             this.CLBClass.TabIndex = 15;
@@ -160,7 +164,7 @@
             "Necromancy",
             "Transmutation"});
             this.CLBSchool.Location = new System.Drawing.Point(104, 29);
-            this.CLBSchool.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CLBSchool.Margin = new System.Windows.Forms.Padding(2);
             this.CLBSchool.Name = "CLBSchool";
             this.CLBSchool.Size = new System.Drawing.Size(132, 64);
             this.CLBSchool.TabIndex = 16;
@@ -181,7 +185,7 @@
             "8",
             "9"});
             this.CLBLevel.Location = new System.Drawing.Point(239, 29);
-            this.CLBLevel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CLBLevel.Margin = new System.Windows.Forms.Padding(2);
             this.CLBLevel.Name = "CLBLevel";
             this.CLBLevel.Size = new System.Drawing.Size(91, 64);
             this.CLBLevel.TabIndex = 17;
@@ -194,7 +198,7 @@
             "Yes",
             "No"});
             this.CLBRitual.Location = new System.Drawing.Point(334, 29);
-            this.CLBRitual.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CLBRitual.Margin = new System.Windows.Forms.Padding(2);
             this.CLBRitual.Name = "CLBRitual";
             this.CLBRitual.Size = new System.Drawing.Size(91, 64);
             this.CLBRitual.TabIndex = 18;
@@ -209,7 +213,7 @@
             "1 Reaction",
             "Other"});
             this.CLBCastingTime.Location = new System.Drawing.Point(428, 29);
-            this.CLBCastingTime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CLBCastingTime.Margin = new System.Windows.Forms.Padding(2);
             this.CLBCastingTime.Name = "CLBCastingTime";
             this.CLBCastingTime.Size = new System.Drawing.Size(123, 64);
             this.CLBCastingTime.TabIndex = 19;
@@ -223,7 +227,7 @@
             "Somatic",
             "Material"});
             this.CLBComponents.Location = new System.Drawing.Point(555, 29);
-            this.CLBComponents.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CLBComponents.Margin = new System.Windows.Forms.Padding(2);
             this.CLBComponents.Name = "CLBComponents";
             this.CLBComponents.Size = new System.Drawing.Size(91, 64);
             this.CLBComponents.TabIndex = 20;
@@ -236,7 +240,7 @@
             "Yes",
             "No"});
             this.CLBConcentration.Location = new System.Drawing.Point(650, 29);
-            this.CLBConcentration.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CLBConcentration.Margin = new System.Windows.Forms.Padding(2);
             this.CLBConcentration.Name = "CLBConcentration";
             this.CLBConcentration.Size = new System.Drawing.Size(91, 64);
             this.CLBConcentration.TabIndex = 21;
@@ -262,7 +266,7 @@
             this.Controls.Add(this.LBLSchool);
             this.Controls.Add(this.LBLClass);
             this.Controls.Add(this.DGVSpellList);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SpellCompendium";
             this.Text = "Spell Compendium";
             this.Load += new System.EventHandler(this.SpellCompendium_Load);

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,16 +64,6 @@ namespace SpellLibrary
             }
         }
 
-        public IEnumerator<Spell> GetEnumerator()
-        {
-            return Spells.GetEnumerator();
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return Spells.GetEnumerator();
-        }
-
         public Spell this[string index]
         {
             get
@@ -107,6 +98,16 @@ namespace SpellLibrary
         public void Remove(string target)
         {
             Spells.Remove(this[target]);
+        }
+
+        public IEnumerator<Spell> GetEnumerator()
+        {
+            return ((IEnumerable<Spell>)Spells).GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return ((IEnumerable<Spell>)Spells).GetEnumerator();
         }
     }
 }

@@ -142,6 +142,9 @@
             // 
             // TBEffect
             // 
+            this.TBEffect.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TBEffect.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TBEffect.Location = new System.Drawing.Point(97, 235);
             this.TBEffect.Multiline = true;
@@ -154,6 +157,9 @@
             // 
             // TBDuration
             // 
+            this.TBDuration.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TBDuration.Location = new System.Drawing.Point(97, 189);
             this.TBDuration.Name = "TBDuration";
             this.TBDuration.ReadOnly = true;
@@ -163,6 +169,9 @@
             // 
             // TBComponents
             // 
+            this.TBComponents.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TBComponents.Location = new System.Drawing.Point(97, 163);
             this.TBComponents.Name = "TBComponents";
             this.TBComponents.ReadOnly = true;
@@ -172,6 +181,9 @@
             // 
             // TBRange
             // 
+            this.TBRange.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TBRange.Location = new System.Drawing.Point(97, 137);
             this.TBRange.Name = "TBRange";
             this.TBRange.ReadOnly = true;
@@ -181,6 +193,9 @@
             // 
             // TBCastingTime
             // 
+            this.TBCastingTime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TBCastingTime.Location = new System.Drawing.Point(97, 111);
             this.TBCastingTime.Name = "TBCastingTime";
             this.TBCastingTime.ReadOnly = true;
@@ -190,6 +205,9 @@
             // 
             // TBLevel
             // 
+            this.TBLevel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TBLevel.Location = new System.Drawing.Point(97, 64);
             this.TBLevel.Name = "TBLevel";
             this.TBLevel.ReadOnly = true;
@@ -199,6 +217,9 @@
             // 
             // TBSchool
             // 
+            this.TBSchool.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TBSchool.Location = new System.Drawing.Point(97, 38);
             this.TBSchool.Name = "TBSchool";
             this.TBSchool.ReadOnly = true;
@@ -208,6 +229,9 @@
             // 
             // TBClassList
             // 
+            this.TBClassList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TBClassList.Location = new System.Drawing.Point(97, 12);
             this.TBClassList.Name = "TBClassList";
             this.TBClassList.ReadOnly = true;
